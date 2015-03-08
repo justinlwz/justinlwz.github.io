@@ -174,10 +174,9 @@ p {
 }
 
 a {
-  &, &:visited {
-    // Styles
-    color: $link-color;
-  }
+  // Styles
+  color: $link-color;
+  @include css-transition($property:color, $timing:0.3s);
   &:hover, &:focus {
     // Styles
     color: $link-hover-color;

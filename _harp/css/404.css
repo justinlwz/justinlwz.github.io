@@ -1781,10 +1781,12 @@ p {
   margin-bottom: 20px;
   color: #333333; }
 
-a, a:visited {
-  color: #399CD3; }
-a:hover, a:focus {
-  color: #0A67A3; }
+a {
+  color: #399CD3;
+  -webkit-transition: color 0.3s ease;
+          transition: color 0.3s ease; }
+  a:hover, a:focus {
+    color: #0A67A3; }
 
 ul {
   padding-left: 20px;
@@ -2458,7 +2460,7 @@ button.linkedin, a.button.linkedin {
   border-radius: none; }
   button.linkedin:hover, button.linkedin:active, a.button.linkedin:hover, a.button.linkedin:active {
     cursor: pointer;
-    background: #0a86cc; }
+    background: #08669c; }
 
 button.github, a.button.github {
   color: white;
@@ -2476,7 +2478,7 @@ button.twitter, a.button.twitter {
   border-radius: none; }
   button.twitter:hover, button.twitter:active, a.button.twitter:hover, a.button.twitter:active {
     cursor: pointer;
-    background: #6cb7f0; }
+    background: #3ea1ec; }
 
 /* -------------------------------------
 
@@ -2495,6 +2497,8 @@ button {
   padding-bottom: 0;
   display: inline-block;
   vertical-align: middle;
+  -webkit-transition: background 0.3s ease;
+          transition: background 0.3s ease;
   outline: none; }
 
 a.button {
@@ -2508,7 +2512,9 @@ a.button {
   padding-top: 0;
   padding-bottom: 0;
   display: inline-block;
-  vertical-align: middle; }
+  vertical-align: middle;
+  -webkit-transition: background 0.3s ease;
+          transition: background 0.3s ease; }
 
 button, a.button {
   font-family: "calluna-sans";

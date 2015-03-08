@@ -41,10 +41,10 @@ $button-disabled-bg:   #BDC3C7 !default;
 
 // Social
 $button-twitter:       #55ACEE !default;
-$button-twitter-hover: lighten(#55ACEE, 5%) !default;
+$button-twitter-hover: darken(#55ACEE, 5%) !default;
 
 $button-linkedin:       #0976B4 !default;
-$button-linkedin-hover: lighten(#0976B4, 5%) !default;
+$button-linkedin-hover: darken(#0976B4, 5%) !default;
 
 $button-github:       #333333 !default;
 $button-github-hover: lighten(#333333, 5%) !default;
@@ -192,9 +192,13 @@ a.button.twitter {
 
 button {
   @include button-setter($height:$button-large-size, $mode:normal);
+  @include css-transition($property:background, $timing:0.3s);
   outline: none;
 }
-a.button { @include button-setter($height:$button-large-size, $mode:normal, $link:true); }
+a.button { 
+  @include button-setter($height:$button-large-size, $mode:normal, $link:true); 
+  @include css-transition($property:background, $timing:0.3s);
+}
 
   button, a.button {
     font-family: $button-font-stack;
