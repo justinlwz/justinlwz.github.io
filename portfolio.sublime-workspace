@@ -1,0 +1,207 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 368.0,
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 417.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/justinlim/Dropbox/Github/portfolio/_harp"
+	],
+	"file_history":
+	[
+		"/Users/justinlim/Dropbox/Github/portfolio/_harp/.bowerrc",
+		"/Users/justinlim/Dropbox/Github/jumpstart/build/scss/jumpstart.scss",
+		"/Users/justinlim/Dropbox/Github/jumpstart/build/scss/elements/_buttons.scss",
+		"/Users/justinlim/Dropbox/justin-lim/web/kirby/site/config/config.php",
+		"/Users/justinlim/Desktop/kirby-2.0.6/site/config/config.php",
+		"/Users/justinlim/Desktop/kirby-2.0.6/content/site.txt",
+		"/Users/justinlim/Library/Application Support/Sublime Text 3/Packages/User/Snippets/jade-basicpage.sublime-snippet",
+		"/Users/justinlim/Library/Application Support/Sublime Text 3/Packages/User/Snippets/css-blockcomment..sublime-snippet",
+		"/Users/justinlim/Library/Application Support/Sublime Text 3/Packages/User/Snippets/css-sectioncomment.sublime-snippet",
+		"/Users/justinlim/Library/Application Support/Sublime Text 3/Packages/User/Snippets/html-basicpage.sublime-snippet",
+		"/Users/justinlim/Dropbox/Github/jumpstart/sublime/jumpstart.sublime-project",
+		"/Users/justinlim/Dropbox/justin-lim/web/site/pages/index.html",
+		"/Users/justinlim/Dropbox/justin-lim/web/site/pages/error.html",
+		"/Users/justinlim/Dropbox/justin-lim/web/site/config.json",
+		"/Users/justinlim/Dropbox/justin-lim/web/site/templates/base.html",
+		"/Users/justinlim/Dropbox/justin-lim/web/site/templates/post.html",
+		"/Users/justinlim/Dropbox/justin-lim/web/template/template.conf",
+		"/Users/justinlim/Dropbox/justin-lim/web/template/styles/gallery.less",
+		"/Users/justinlim/Dropbox/justin-lim/web/template/collections/gallery.list",
+		"/Users/justinlim/Dropbox/justin-lim/web/template/collections/gallery.conf",
+		"/Users/justinlim/Dropbox/justin-lim/web/template/collections/blog.conf",
+		"/Users/justinlim/Dropbox/justin-lim/web/template/collections/blog.item",
+		"/Users/justinlim/Dropbox/justin-lim/web/template/collections/blog.list",
+		"/Users/justinlim/Dropbox/justin-lim/web/template/site.region",
+		"/Users/justinlim/Dropbox/justin-lim/web/template/scripts/site.js",
+		"/Users/justinlim/Dropbox/justin-lim/web/template/blocks/navigation.block",
+		"/Users/justinlim/Dropbox/justin-lim/web/template/assets/readme.md",
+		"/Users/justinlim/Dropbox/justin-lim/web/template/styles/tweak.less",
+		"/Users/justinlim/Dropbox/justin-lim/web/template/styles/global.less",
+		"/Users/justinlim/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"grid"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "portfolio.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 231.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
