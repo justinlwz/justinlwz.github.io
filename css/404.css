@@ -2427,12 +2427,12 @@ img.inline-icon {
   Button Styles
 
 ------------------------------------- */
-button.base {
+button.base a.button.base {
   color: white;
   background: #5EC2CC;
   border: none;
   border-radius: none; }
-  button.base:hover, button.base:active {
+  button.base a.button.base:hover, button.base a.button.base:active {
     cursor: pointer;
     background: #36BECC; }
 
@@ -2442,14 +2442,41 @@ button:disabled {
   border: none;
   border-radius: none; }
 
-button.quiet-base {
+button.quiet, a.button.quiet {
   color: #5EC2CC;
   background: none;
   border: none;
   border-radius: none; }
-  button.quiet-base:hover, button.quiet-base:active {
+  button.quiet:hover, button.quiet:active, a.button.quiet:hover, a.button.quiet:active {
     cursor: pointer;
     color: #36BECC; }
+
+button.linkedin, a.button.linkedin {
+  color: white;
+  background: #0976B4;
+  border: none;
+  border-radius: none; }
+  button.linkedin:hover, button.linkedin:active, a.button.linkedin:hover, a.button.linkedin:active {
+    cursor: pointer;
+    background: #0a86cc; }
+
+button.github, a.button.github {
+  color: white;
+  background: #333333;
+  border: none;
+  border-radius: none; }
+  button.github:hover, button.github:active, a.button.github:hover, a.button.github:active {
+    cursor: pointer;
+    background: #404040; }
+
+button.twitter, a.button.twitter {
+  color: white;
+  background: #55ACEE;
+  border: none;
+  border-radius: none; }
+  button.twitter:hover, button.twitter:active, a.button.twitter:hover, a.button.twitter:active {
+    cursor: pointer;
+    background: #6cb7f0; }
 
 /* -------------------------------------
 
@@ -2458,7 +2485,9 @@ button.quiet-base {
 ------------------------------------- */
 button {
   width: auto;
-  height: 40px;
+  height: 30px;
+  line-height: 30px;
+  text-decoration: none;
   text-align: center;
   padding-left: 10px;
   padding-right: 10px;
@@ -2466,22 +2495,120 @@ button {
   padding-bottom: 0;
   display: inline-block;
   vertical-align: middle;
-  font-size: 12px;
-  font-weight: 600;
   outline: none; }
 
-button.quiet {
+a.button {
   width: auto;
-  height: 40px;
+  height: 30px;
+  line-height: 30px;
+  text-decoration: none;
   text-align: center;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 0;
   padding-bottom: 0;
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: middle; }
+
+button, a.button {
+  font-family: "calluna-sans";
   font-size: 12px;
   font-weight: 600; }
+
+button.small {
+  width: auto;
+  height: 20px;
+  line-height: 20px;
+  text-decoration: none;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: inline-block;
+  vertical-align: middle; }
+
+a.button.small {
+  width: auto;
+  height: 20px;
+  line-height: 20px;
+  text-decoration: none;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: inline-block;
+  vertical-align: middle; }
+
+button.small, a.button.small {
+  font-family: "calluna-sans";
+  font-size: 10px;
+  font-weight: 600; }
+
+button.circle {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-decoration: none;
+  text-align: center;
+  padding: 0;
+  display: inline-block;
+  vertical-align: middle; }
+
+a.button.circle {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-decoration: none;
+  text-align: center;
+  padding: 0;
+  display: inline-block;
+  vertical-align: middle; }
+
+button.circle, a.button.circle {
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 100%; }
+
+button.icon i, a.button.icon i {
+  display: inline;
+  margin-right: 5px;
+  color: inherit; }
+
+button.icon-left, a.button.icon-left {
+  width: auto;
+  height: 30px;
+  line-height: 30px;
+  text-decoration: none;
+  text-align: left;
+  padding-left: 0;
+  padding-right: 10px;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: inline-block;
+  vertical-align: middle; }
+  button.icon-left i, a.button.icon-left i {
+    width: 30px;
+    text-align: center;
+    line-height: 30px; }
+
+button.icon-right, a.button.icon-right {
+  width: auto;
+  height: 30px;
+  line-height: 30px;
+  text-decoration: none;
+  text-align: right;
+  padding-left: 10px;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: inline-block;
+  vertical-align: middle; }
+  button.icon-right i, a.button.icon-right i {
+    width: 30px;
+    text-align: center;
+    line-height: 30px; }
 
 /* -------------------------------------
 

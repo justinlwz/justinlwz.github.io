@@ -13,8 +13,12 @@
 
 ------------------------------------- */
 
+// Button Fonts
+$button-font-stack: "calluna-sans";
+$button-icon-font:  'FontAwesome';
+
 // Large
-$button-large-size:        40px !default;
+$button-large-size:        30px !default;
 $button-large-font-size:   12px !default;
 $button-large-font-weight: 600 !default;
 
@@ -24,8 +28,7 @@ $button-small-font-size:   10px !default;
 $button-small-font-weight: 600 !default;
 
 // Icon
-$button-icon-font: 'FontAwesome';
-$button-icon-size:  40px !default;
+$button-icon-size:  30px !default;
 $button-icon-width: 30px !default;
 
 // Button Colours
@@ -35,6 +38,17 @@ $button-hover-color: #36BECC !default;
 // Disabled
 $button-disabled-text: #999999 !default;
 $button-disabled-bg:   #BDC3C7 !default;
+
+// Social
+$button-twitter:       #55ACEE !default;
+$button-twitter-hover: lighten(#55ACEE, 5%) !default;
+
+$button-linkedin:       #0976B4 !default;
+$button-linkedin-hover: lighten(#0976B4, 5%) !default;
+
+$button-github:       #333333 !default;
+$button-github-hover: lighten(#333333, 5%) !default;
+
 
 
 /* -------------------------------------
@@ -47,11 +61,16 @@ $button-disabled-bg:   #BDC3C7 !default;
   $width: auto,
   $height: 40px,
   $side-padding: 10px,
-  $mode: normal
+  $mode: normal,
+  $link:true
 ) {
   // Size
   width: $width;
   height: $height;
+  @if $link {
+    line-height: $height;
+    text-decoration: none;
+  }
   // Padding
   @if $mode == normal {
     text-align: center;
@@ -91,7 +110,8 @@ $button-disabled-bg:   #BDC3C7 !default;
 ------------------------------------- */
 
 // Base
-button.base {
+button.base
+a.button.base {
   color: white;
   background: $button-color;
   border: none;
@@ -111,7 +131,8 @@ button:disabled {
 }
 
 // Quiet
-button.quiet-base {
+button.quiet,
+a.button.quiet {
   color: $button-color;
   background: none;
   border: none;
@@ -122,6 +143,46 @@ button.quiet-base {
   }
 }
 
+// LinkedIn
+button.linkedin,
+a.button.linkedin {
+  color: white;
+  background: $button-linkedin;
+  border: none;
+  border-radius: none;
+  &:hover, &:active {
+    cursor: $cursor-pointer-value;
+    background:$button-linkedin-hover;
+  }
+}
+
+// Github
+button.github,
+a.button.github {
+  color: white;
+  background: $button-github;
+  border: none;
+  border-radius: none;
+  &:hover, &:active {
+    cursor: $cursor-pointer-value;
+    background: $button-github-hover;
+  }
+}
+
+// Twitter
+button.twitter,
+a.button.twitter {
+  color: white;
+  background: $button-twitter;
+  border: none;
+  border-radius: none;
+  &:hover, &:active {
+    cursor: $cursor-pointer-value;
+    background: $button-twitter-hover;
+  }
+}
+
+
 
 /* -------------------------------------
 
@@ -131,16 +192,64 @@ button.quiet-base {
 
 button {
   @include button-setter($height:$button-large-size, $mode:normal);
-  font-size: $button-large-font-size;
-  font-weight: $button-large-font-weight;
   outline: none;
 }
+a.button { @include button-setter($height:$button-large-size, $mode:normal, $link:true); }
 
-// Button Quiet
-button.quiet {
-  @include button-setter($height:$button-large-size, $mode:normal);
-  font-size: $button-large-font-size;
-  font-weight: $button-large-font-weight;
+  button, a.button {
+    font-family: $button-font-stack;
+    font-size: $button-large-font-size;
+    font-weight: $button-large-font-weight;
+  }
+
+// Button Small
+button.small { @include button-setter($height:$button-small-size, $mode:normal); }
+a.button.small { @include button-setter($height:$button-small-size, $mode:normal, $link:true); }
+
+  button.small, a.button.small {
+    font-family: $button-font-stack;
+    font-size: $button-small-font-size;
+    font-weight: $button-small-font-weight;
+  }
+
+// Circle Button
+button.circle { @include button-setter($width:$button-large-size, $height:$button-large-size, $mode:circle); }
+a.button.circle { @include button-setter($width:$button-large-size, $height:$button-large-size, $mode:circle, $link:true); }
+
+  button.circle, a.button.circle {
+    font-size: $button-large-font-size;
+    font-weight: $button-large-font-weight;
+    @include round-corners($value:100%);
+  }
+
+// Button with Icons
+button.icon i,
+a.button.icon i {
+  display: inline;
+  margin-right: 5px;
+  color: inherit;
+}
+
+// Button with Icon left
+button.icon-left,
+a.button.icon-left {
+  @include button-setter($height:$button-large-size, $mode:left);
+  i {
+    width: $button-icon-width;
+    text-align: center;
+    line-height: $button-icon-size;
+  }
+}
+
+// Button with Icon Right
+button.icon-right,
+a.button.icon-right {
+  @include button-setter($height:$button-large-size, $mode:right);
+  i {
+    width: $button-icon-width;
+    text-align: center;
+    line-height: $button-icon-size;
+  }
 }
 
 
