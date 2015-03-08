@@ -1,0 +1,81 @@
+<h2>particles.js</h2><h3>A lightweight JavaScript library for creating particles.</h3><hr>
+<p>Load particles.js and configure the particles:</p>
+<p><strong>index.html</strong></p>
+<pre><code class="language-html">&lt;div id=&quot;particles-js&quot;&gt;&lt;/div&gt;
+
+&lt;script src=&quot;particles.js&quot;&gt;&lt;/script&gt;
+</code></pre>
+<p><strong>app.js</strong></p>
+<pre><code class="language-javascript">/* particlesJS(&#39;dom-id&#39;, params);
+/* @dom-id : set the html tag id [string, optional, default value : particles-js]
+/* @params: set the params [object, optional, default values : check particles.js] */
+
+/* config dom id (optional) + config particles params */
+particlesJS(&#39;particles-js&#39;, {
+  particles: {
+    color: &#39;#fff&#39;,
+    color_random: false,
+    shape: &#39;circle&#39;, // &quot;circle&quot;, &quot;edge&quot; or &quot;triangle&quot;
+    opacity: {
+      opacity: 1,
+      anim: {
+        enable: true,
+        speed: 1.5,
+        opacity_min: 0,
+        sync: false
+      }
+    },
+    size: 4,
+    size_random: true,
+    nb: 150,
+    line_linked: {
+      enable_auto: true,
+      distance: 100,
+      color: &#39;#fff&#39;,
+      opacity: 1,
+      width: 1,
+      condensed_mode: {
+        enable: false,
+        rotateX: 600,
+        rotateY: 600
+      }
+    },
+    anim: {
+      enable: true,
+      speed: 1
+    }
+  },
+  interactivity: {
+    enable: true,
+    mouse: {
+      distance: 300
+    },
+    detect_on: &#39;canvas&#39;, // &quot;canvas&quot; or &quot;window&quot;
+    mode: &#39;grab&#39;,
+    line_linked: {
+      opacity: .5
+    },
+    events: {
+      onclick: {
+        enable: true,
+        mode: &#39;push&#39;, // &quot;push&quot; or &quot;remove&quot;
+        nb: 4
+      },
+      onresize: {
+        enable: true,
+        mode: &#39;out&#39;, // &quot;out&quot; or &quot;bounce&quot;
+        density_auto: false,
+        density_area: 800 // nb_particles = particles.nb * (canvas width *  canvas height / 1000) / density_area
+      }
+    }
+  },
+  /* Retina Display Support */
+  retina_detect: true
+});
+</code></pre>
+<hr>
+<h3><strong><em>Live Demo</em></strong></h3><p><a href="http://codepen.io/VincentGarreau/pen/pnlso" target="_blank">CodePen demo</a></p>
+<p><a href="http://htmlpreview.github.io/?https://github.com/VincentGarreau/particles.js/blob/master/demo/index.html" target="_blank">GitHub demo</a></p>
+<hr>
+<h5><strong><em>Install with Bower</em></strong></h5><pre><code>bower install particles.js --save
+</code></pre>

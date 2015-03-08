@@ -1,0 +1,172 @@
+/*
+
+
+  Grid Elements
+
+
+*/
+
+
+/* -------------------------------------
+
+  Variables
+
+------------------------------------- */
+
+$layout-grid: true;
+
+$page-width:   960px;
+$mobile-size:  320px;
+$tablet-size:  640px;
+$desktop-size: 1000px;
+
+$mobile-columns:  6;
+$tablet-columns:  8;
+$desktop-columns: 12;
+
+$gutter-size:   20px;
+
+
+/* -------------------------------------
+
+  Mixins
+
+------------------------------------- */
+
+@mixin clearfix {
+  &:before, &:after { content: " "; display: table; }
+  &:after { clear: both; }
+}
+
+@mixin grid-setter(
+  $grid-name: grid,
+  $columns: 12
+) {
+  @for $i from 1 through $columns {
+    .#{$grid-name}-#{$i} {
+      flex: 1 calc( #{grid-calc($i, $columns)} - #{$gutter-size} );
+      margin-left: $gutter-size / 2;
+      margin-right: $gutter-size / 2;
+    }
+    .#{$grid-name}-#{$i}-collapse {
+      flex: 1 percentage($i / $columns);
+      padding-left: $gutter-size / 2;
+      padding-right: $gutter-size / 2;
+    }
+  }
+  .#{$grid-name}-auto {
+    flex: 1 auto;
+    margin-left: $gutter-size / 2;
+      margin-right: $gutter-size / 2;
+  }
+}
+
+
+/* -------------------------------------
+
+  Test Grid
+
+------------------------------------- */
+
+@if $layout-grid == true {
+  .test-grid {
+    font-size: 12px;
+    color: #666666;
+    text-align: center;
+    padding: $gutter-size/2 0;
+    background-color: rgba(222, 219, 211, 0.7);
+    outline: solid thin darken(#F3F2EF, 20%);
+    > * {
+      padding: 10px;
+      background-color: rgba(222, 219, 211, 0.7);
+      outline: solid thin darken(#F3F2EF, 20%);
+    }
+  }
+}
+
+
+/* -------------------------------------
+
+  Layout Classes
+
+------------------------------------- */
+
+.left { float: left !important; }
+.right { float: right !important; }
+.clearfix { @include clearfix; }
+
+.hide {
+  display: none !important;
+  visibility: hidden;
+}
+
+// Hide but maintain layout
+.invisible { visibility: hidden; }
+
+// Horizontal Center - Apply on .row
+.hcenter {
+  justify-content: center;
+  > * {
+    flex-grow: 0 !important;
+  }
+}
+
+// Vertical Center - Apply on .row
+.vcenter {
+  align-items: center;
+  > * {
+    flex-grow: 0 !important;
+  }
+}
+
+
+/* -------------------------------------
+
+  Grids
+
+------------------------------------- */
+
+.full-width {
+  width: 100%;
+}
+
+.row {
+  width: 100%;
+  max-width: $page-width;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  .row {
+    width: auto;
+    max-width: none;
+    // Regular Columns
+    > *:first-child { margin-left: 0; }
+    > *:last-child { margin-right: 0; }
+    // Collapsed Columns
+    > *[class*="-collapse"]:first-child { padding-left: 0; }
+    > *[class*="-collapse"]:last-child { padding-right: 0; }
+  }
+}
+
+
+/* -------------------------------------
+
+  Media Queries
+
+------------------------------------- */
+
+// Mobile Grid
+@media (min-width: $mobile-size) {
+  @include grid-setter($grid-name:mobile, $columns:$mobile-columns);
+}
+
+// Tablet Grid
+@media (min-width: $tablet-size) {
+  @include grid-setter($grid-name:tablet, $columns:$tablet-columns);
+}
+
+// Desktop Grid
+@media (min-width: $desktop-size) {
+  @include grid-setter($grid-name:desktop, $columns:$desktop-columns);
+}

@@ -1,0 +1,51 @@
+/*
+
+
+  Icon Elements
+
+
+*/
+
+
+/* -------------------------------------
+
+  Variables
+
+------------------------------------- */
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('/fonts/fontawesome-webfont.woff2?v=#{$fa-version}') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* -------------------------------------
+
+  Classes
+
+------------------------------------- */
+
+i {
+  font-family: FontAwesome;
+  font-variant: normal;
+  font-style: normal;
+  font-weight: normal;
+  font-size: inherit;
+  line-height: 1;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+i.inline-icon,
+img.inline-icon {
+  display: inline;
+  margin-right: 5px;
+}
+
+img.inline-icon {
+  vertical-align: middle;
+  margin-bottom: 3px;
+}

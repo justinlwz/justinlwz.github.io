@@ -1,0 +1,146 @@
+/*
+
+
+  Buttons Elements
+
+
+*/
+
+
+/* -------------------------------------
+
+  Variables
+
+------------------------------------- */
+
+// Large
+$button-large-size:        40px !default;
+$button-large-font-size:   12px !default;
+$button-large-font-weight: 600 !default;
+
+// Small
+$button-small-size:        20px !default;
+$button-small-font-size:   10px !default;
+$button-small-font-weight: 600 !default;
+
+// Icon
+$button-icon-font: 'FontAwesome';
+$button-icon-size:  40px !default;
+$button-icon-width: 30px !default;
+
+// Button Colours
+$button-color:       #5EC2CC !default;
+$button-hover-color: #36BECC !default;
+
+// Disabled
+$button-disabled-text: #999999 !default;
+$button-disabled-bg:   #BDC3C7 !default;
+
+
+/* -------------------------------------
+
+  Mixins
+
+------------------------------------- */
+
+@mixin button-setter(
+  $width: auto,
+  $height: 40px,
+  $side-padding: 10px,
+  $mode: normal
+) {
+  // Size
+  width: $width;
+  height: $height;
+  // Padding
+  @if $mode == normal {
+    text-align: center;
+    padding-left: $side-padding;
+    padding-right: $side-padding;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  @else if $mode == left {
+    text-align: left;
+    padding-left: 0;
+    padding-right: $side-padding;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  @else if $mode == right {
+    text-align: right;
+    padding-left: $side-padding;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  @else if $mode == circle {
+    text-align: center;
+    padding: 0;
+  }
+  // Appreance
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+/* -------------------------------------
+
+  Button Styles
+
+------------------------------------- */
+
+// Base
+button.base {
+  color: white;
+  background: $button-color;
+  border: none;
+  border-radius: none;
+  &:hover, &:active {
+    cursor: $cursor-pointer-value;
+    background: $button-hover-color;
+  }
+}
+
+// Disabled
+button:disabled {
+  background: $button-disabled-bg;
+  color: $button-disabled-text;
+  border: none;
+  border-radius: none;
+}
+
+// Quiet
+button.quiet-base {
+  color: $button-color;
+  background: none;
+  border: none;
+  border-radius: none;
+  &:hover, &:active {
+    cursor: $cursor-pointer-value;
+    color: $button-hover-color;
+  }
+}
+
+
+/* -------------------------------------
+
+  Button Types
+
+------------------------------------- */
+
+button {
+  @include button-setter($height:$button-large-size, $mode:normal);
+  font-size: $button-large-font-size;
+  font-weight: $button-large-font-weight;
+  outline: none;
+}
+
+// Button Quiet
+button.quiet {
+  @include button-setter($height:$button-large-size, $mode:normal);
+  font-size: $button-large-font-size;
+  font-weight: $button-large-font-weight;
+}
+
+

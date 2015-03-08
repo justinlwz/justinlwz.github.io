@@ -1,0 +1,55 @@
+/*
+
+
+  Global Mixins
+
+
+*/
+
+
+/* -------------------------------------
+
+  Effects
+
+------------------------------------- */
+
+// Round Corners
+@mixin round-corners(
+  $universal: true,
+  $value: 3px,
+  $top-left: 3px,
+  $top-right: 3px,
+  $bottom-left: 3px,
+  $bottom-right: 3px
+) {
+  @if ($universal) {
+    border-radius: $value;
+  } @else {
+    border-radius: $top-left $top-right $bottom-right $bottom-left;
+  }
+}
+
+// Box Shadow Mixin
+@mixin shadow(
+  $inset: false,
+  $offset-x: 0px,
+  $offset-y: 1px,
+  $spread: 3px,
+  $opacity: 0.3
+) {
+  @if $inset {
+    box-shadow: inset $offset-x $offset-y $spread rgba(0, 0, 0, $opacity);
+  }
+  @else {
+    box-shadow: inset $offset-x $offset-y $spread rgba(0, 0, 0, $opacity);
+  }
+}
+
+// Transition Mixin
+@mixin css-transition(
+  $property: all,
+  $timing: 0.5s,
+  $easing: ease
+) {
+  transition: $property $timing $easing;
+}

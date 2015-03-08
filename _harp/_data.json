@@ -1,0 +1,16 @@
+{
+  "index": {
+    "layout" : "layouts/base",
+    "cssURL" : "index.css"
+  },
+  "about": {
+    "layout" : "layouts/base",
+    "title"  : "justin.lim / about",
+    "cssURL" : "about.css"
+  },
+  "404": {
+    "layout" : "layouts/base",
+    "title"  : "justin.lim / 404",
+    "cssURL" : "404.css"
+  }
+}

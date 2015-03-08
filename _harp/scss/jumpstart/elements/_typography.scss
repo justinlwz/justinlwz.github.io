@@ -1,0 +1,258 @@
+/*
+
+
+  Type Elements
+
+
+*/
+
+
+/* -------------------------------------
+
+  Variables
+
+------------------------------------- */
+
+$type-grid: true;
+
+// Base Styles
+$font-stack:     "calluna-sans", "Helvetica Neue", Helvetica, Arial, Calibri, sans-serif;
+$base-font-size: 14px !default;    // Base Size (px)
+$base-rhythm:    20px !default;    // Vertical Rhythm (px)
+$base-weight:    normal !default;
+
+// Colours
+$text-color:        #333333 !default;
+$text-color-medium: #666666 !default;
+$text-color-light:  #999999 !default;
+$link-color:        #399CD3 !default;
+$link-hover-color:  #0A67A3 !default;
+$code-color:        #E67E22 !default;
+
+
+/* -------------------------------------
+
+  Mixins
+
+------------------------------------- */
+
+// Typesetter
+@mixin type-setter(
+  $family: $font-stack,
+  $weight: $base-weight,
+  $size: $base-font-size,
+  $rhythm-mode: true,
+  $lines: auto
+) {
+  font-family: $family;
+  font-weight: $weight;
+  font-size: rem-calc($size);
+  @if $rhythm-mode {
+    line-height: rhythm-calc($base-rhythm, $size, $lines);
+  } @else {
+    line-height: $lines;
+  }
+}
+
+@mixin leader-setter($lines: 0) {
+  margin-top: lines-calc($lines);
+}
+
+@mixin trailer-setter($lines: 0) {
+  margin-bottom: lines-calc($lines);
+}
+
+
+/* ----------------------------------------
+
+  Classes
+
+---------------------------------------- */
+
+// Font Smooth
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Truncate Lengthy Text */
+.truncate {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+
+/* -------------------------------------
+
+  Setup
+
+------------------------------------- */
+
+html {
+  font-family: $font-stack;
+  font-size: ( get-val($base-font-size) / 16) * 100%;
+  line-height: $base-rhythm;
+  font-weight: $base-weight;
+}
+
+@if $type-grid == true {
+  body {
+    background-image: url("http://basehold.it/i/#{get-val($base-rhythm)}");
+  }
+}
+
+
+/* ----------------------------------------
+
+  Headers
+
+---------------------------------------- */
+
+h1 {
+  @include type-setter($family:$font-stack, $weight:300, $size:44px, $lines:3);
+  @include leader-setter(0);
+  @include trailer-setter(1);
+  // Styles
+  color: $text-color;
+}
+
+h2 {
+  @include type-setter($family:$font-stack, $weight:400, $size:27px, $lines:auto);
+  @include leader-setter(0);
+  @include trailer-setter(0.5);
+  // Styles
+  color: $text-color;
+}
+
+h3 {
+  @include type-setter($family:$font-stack, $weight:400, $size:23px, $lines:1.5);
+  @include leader-setter(0);
+  @include trailer-setter(1.5);
+  // Styles
+  color: $text-color;
+}
+
+h4 {
+  @include type-setter($family:$font-stack, $weight:400, $size:18px, $lines:1.5);
+  @include leader-setter(0);
+  @include trailer-setter(1.5);
+  // Styles
+  color: $text-color;
+}
+
+h5 {
+  @include type-setter($family:$font-stack, $weight:600, $size:14px, $lines:auto);
+  @include leader-setter(0);
+  @include trailer-setter(1);
+  // Styles
+  color: $text-color;
+}
+
+h6 {
+  @include type-setter($family:$font-stack, $weight:600, $size:12px, $lines:1.5);
+  @include leader-setter(0);
+  @include trailer-setter(1.5);
+  // Styles
+  color: $text-color;
+}
+
+
+/* ----------------------------------------
+
+  Text and Lists
+
+---------------------------------------- */
+
+
+p {
+  @include type-setter($family:$font-stack, $weight:300, $size:14px, $lines:1);
+  @include leader-setter(0);
+  @include trailer-setter(1);
+  // Styles
+  color: $text-color;
+}
+
+a {
+  &, &:visited {
+    // Styles
+    color: $link-color;
+  }
+  &:hover, &:focus {
+    // Styles
+    color: $link-hover-color;
+  }
+}
+
+ul {
+  // Padding, Margin
+  padding-left: 20px;
+  @include leader-setter(0);
+  @include trailer-setter(1);
+  // Styles
+  list-style-position: outside;
+  list-style-type: square;
+  li {
+    @include type-setter($family:$font-stack, $weight:300, $size:14px, $lines:1);
+    // Styles
+    color: $text-color;
+  }
+}
+
+ol {
+  // Padding, Margin
+  padding-left: 20px;
+  @include leader-setter(0);
+  @include trailer-setter(1);
+  // Styles
+  list-style-position: outside;
+  list-style-type: normal;
+
+  li {
+    @include type-setter($family:$font-stack, $weight:300, $size:14px, $lines:1);
+    // Styles
+    color: $text-color;
+  }
+}
+
+
+/* ----------------------------------------
+
+    Blockquotes and Cite
+
+---------------------------------------- */
+
+blockquote {
+  @include type-setter($family:$font-stack, $weight:300, $size:14px, $lines:1);
+  &:before {
+    content: open-quote;
+
+  }
+  &:after {
+    content: close-quote;
+  }
+}
+
+cite {
+  @include type-setter($family:$font-stack, $weight:300, $size:14px, $lines:1);
+  @include trailer-setter(1);
+  display: block;
+  // Styles
+  color: $text-color;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+
+/* -------------------------------------
+
+  Codes
+
+------------------------------------- */
+
+code {
+  @include type-setter($family:monospace, $weight:600, $size:16px, $lines:1);
+  // Styles
+  color: $code-color;
+  font-style: normal;
+}

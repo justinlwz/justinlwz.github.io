@@ -1,0 +1,51 @@
+/*
+
+
+  Global
+
+
+*/
+
+
+/* -------------------------------------
+
+  Variables
+
+------------------------------------- */
+
+$cursor-auto-value:       auto !default;
+$cursor-crosshair-value:  crosshair !default;
+$cursor-default-value:    default !default;
+$cursor-disabled-value:   not-allowed !default;
+$cursor-pointer-value:    pointer !default;
+$cursor-help-value:       help !default;
+$cursor-text-value:       text !default;
+
+$stroke-color:          #CCCCCC !default;
+$shadow-color:          #E6E6E6 !default;
+$background-color:      #F7F7F7 !default;
+$background-alt-color:  #F2F2F2 !default;
+
+
+/* -------------------------------------
+
+  Setup
+
+------------------------------------- */
+
+html, body { height: 100%; }
+
+body {
+  // Background
+  background: $background-color;
+  // Margin, Padding, Positions
+  margin: 0;
+  padding: 0;
+  position: relative;
+  cursor: $cursor-auto-value;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  position: relative;
+}

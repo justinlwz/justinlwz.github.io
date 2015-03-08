@@ -1,0 +1,32 @@
+/*
+
+
+  Navigation Styles
+
+
+*/
+
+
+/* -------------------------------------
+
+  Logo
+
+------------------------------------- */
+
+h1#logo {
+  @include type-setter($family:$font-stack, $weight:600, $size:16px, $lines:1);
+  @include leader-setter(0);
+  @include trailer-setter(0);
+
+  a, a:visited, a:hover, a:focus {
+    font-size: inherit;
+    font-weight: inherit;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  span#job {
+    font-weight: 300;
+    margin-left: 10px;
+  }
+}
