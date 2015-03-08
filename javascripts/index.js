@@ -20,9 +20,9 @@ particlesJS('particles', {
         sync: false
       }
     },
-    size: 4,
+    size: 3,
     size_random: true,
-    nb: 150,
+    nb: 100,
     line_linked: {
       enable_auto: true,
       distance: 100,
@@ -54,13 +54,13 @@ particlesJS('particles', {
       onclick: {
         enable: true,
         mode: 'push', // "push" or "remove"
-        nb: 4
+        nb: 2
       },
       onresize: {
         enable: true,
-        mode: 'bounce', // "out" or "bounce"
+        mode: 'out', // "out" or "bounce"
         density_auto: false,
-        density_area: 600 // nb_particles = particles.nb * (canvas width *  canvas height / 1000) / density_area
+        density_area: 800 // nb_particles = particles.nb * (canvas width *  canvas height / 1000) / density_area
       }
     }
   },
