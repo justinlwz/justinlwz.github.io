@@ -44,6 +44,7 @@ div#particles {
 ------------------------------------- */
 
 h1#logo {
+  @include leader-setter(1);
   @include trailer-setter(1);
 }
 
