@@ -48,7 +48,7 @@ h1#logo {
 }
 
 h2 {
-  @include type-setter($family:"calluna", $weight:300, $size:24px, $lines:auto);
+  @include type-setter($family:$serif-stack, $weight:300, $size:24px, $lines:auto);
   @include leader-setter(0);
   @include trailer-setter(2);
 }

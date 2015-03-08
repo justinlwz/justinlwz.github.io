@@ -2675,7 +2675,7 @@ h1#logo {
   margin-bottom: 20px; }
 
 h2 {
-  font-family: "calluna";
+  font-family: "calluna", Georgia, Times, "Times New Roman", serif;
   font-weight: 300;
   font-size: 1.71429rem;
   line-height: 1.66667;

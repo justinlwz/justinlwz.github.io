@@ -16,7 +16,8 @@
 $type-grid: true;
 
 // Base Styles
-$font-stack:     "calluna-sans", "Helvetica Neue", Helvetica, Arial, Calibri, sans-serif;
+$sans-stack:     "calluna-sans", "Helvetica Neue", Helvetica, Arial, Calibri, sans-serif;
+$serif-stack:    "calluna", Georgia,Times, "Times New Roman",serif;
 $base-font-size: 14px !default;    // Base Size (px)
 $base-rhythm:    20px !default;    // Vertical Rhythm (px)
 $base-weight:    normal !default;
@@ -38,7 +39,7 @@ $code-color:        #E67E22 !default;
 
 // Typesetter
 @mixin type-setter(
-  $family: $font-stack,
+  $family: $sans-stack,
   $weight: $base-weight,
   $size: $base-font-size,
   $rhythm-mode: true,
@@ -90,7 +91,7 @@ $code-color:        #E67E22 !default;
 ------------------------------------- */
 
 html {
-  font-family: $font-stack;
+  font-family: $sans-stack;
   font-size: ( get-val($base-font-size) / 16) * 100%;
   line-height: $base-rhythm;
   font-weight: $base-weight;
@@ -110,7 +111,7 @@ html {
 ---------------------------------------- */
 
 h1 {
-  @include type-setter($family:$font-stack, $weight:300, $size:44px, $lines:3);
+  @include type-setter($family:$sans-stack, $weight:300, $size:44px, $lines:3);
   @include leader-setter(0);
   @include trailer-setter(1);
   // Styles
@@ -118,7 +119,7 @@ h1 {
 }
 
 h2 {
-  @include type-setter($family:$font-stack, $weight:400, $size:27px, $lines:auto);
+  @include type-setter($family:$sans-stack, $weight:400, $size:27px, $lines:auto);
   @include leader-setter(0);
   @include trailer-setter(0.5);
   // Styles
@@ -126,7 +127,7 @@ h2 {
 }
 
 h3 {
-  @include type-setter($family:$font-stack, $weight:400, $size:23px, $lines:1.5);
+  @include type-setter($family:$sans-stack, $weight:400, $size:23px, $lines:1.5);
   @include leader-setter(0);
   @include trailer-setter(1.5);
   // Styles
@@ -134,7 +135,7 @@ h3 {
 }
 
 h4 {
-  @include type-setter($family:$font-stack, $weight:400, $size:18px, $lines:1.5);
+  @include type-setter($family:$sans-stack, $weight:400, $size:18px, $lines:1.5);
   @include leader-setter(0);
   @include trailer-setter(1.5);
   // Styles
@@ -142,7 +143,7 @@ h4 {
 }
 
 h5 {
-  @include type-setter($family:$font-stack, $weight:600, $size:14px, $lines:auto);
+  @include type-setter($family:$sans-stack, $weight:600, $size:14px, $lines:auto);
   @include leader-setter(0);
   @include trailer-setter(1);
   // Styles
@@ -150,7 +151,7 @@ h5 {
 }
 
 h6 {
-  @include type-setter($family:$font-stack, $weight:600, $size:12px, $lines:1.5);
+  @include type-setter($family:$sans-stack, $weight:600, $size:12px, $lines:1.5);
   @include leader-setter(0);
   @include trailer-setter(1.5);
   // Styles
@@ -166,7 +167,7 @@ h6 {
 
 
 p {
-  @include type-setter($family:$font-stack, $weight:300, $size:14px, $lines:1);
+  @include type-setter($family:$sans-stack, $weight:300, $size:14px, $lines:1);
   @include leader-setter(0);
   @include trailer-setter(1);
   // Styles
@@ -192,7 +193,7 @@ ul {
   list-style-position: outside;
   list-style-type: square;
   li {
-    @include type-setter($family:$font-stack, $weight:300, $size:14px, $lines:1);
+    @include type-setter($family:$sans-stack, $weight:300, $size:14px, $lines:1);
     // Styles
     color: $text-color;
   }
@@ -208,7 +209,7 @@ ol {
   list-style-type: normal;
 
   li {
-    @include type-setter($family:$font-stack, $weight:300, $size:14px, $lines:1);
+    @include type-setter($family:$sans-stack, $weight:300, $size:14px, $lines:1);
     // Styles
     color: $text-color;
   }
@@ -222,7 +223,7 @@ ol {
 ---------------------------------------- */
 
 blockquote {
-  @include type-setter($family:$font-stack, $weight:300, $size:14px, $lines:1);
+  @include type-setter($family:$sans-stack, $weight:300, $size:14px, $lines:1);
   &:before {
     content: open-quote;
 
@@ -233,7 +234,7 @@ blockquote {
 }
 
 cite {
-  @include type-setter($family:$font-stack, $weight:300, $size:14px, $lines:1);
+  @include type-setter($family:$sans-stack, $weight:300, $size:14px, $lines:1);
   @include trailer-setter(1);
   display: block;
   // Styles

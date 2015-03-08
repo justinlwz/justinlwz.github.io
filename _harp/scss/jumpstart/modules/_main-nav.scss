@@ -14,7 +14,7 @@
 ------------------------------------- */
 
 h1#logo {
-  @include type-setter($family:$font-stack, $weight:600, $size:16px, $lines:1);
+  @include type-setter($family:$sans-stack, $weight:600, $size:16px, $lines:1);
   @include leader-setter(0);
   @include trailer-setter(0);
 
