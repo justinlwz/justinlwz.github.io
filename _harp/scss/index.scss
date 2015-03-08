@@ -69,4 +69,23 @@ p {
   }
 }
 
-div#index-actions a:not(:last-child) { margin-right: 10px; }
+
+/* -------------------------------------
+
+  Media Queries
+
+------------------------------------- */
+
+@media (min-width: $mobile-size) {
+  div#index-actions { 
+    margin-bottom: 50px;
+    a.button { 
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+@media (min-width: $tablet-size) {
+  div#index-actions a:not(:last-child) { margin-right: 10px; }
+}
