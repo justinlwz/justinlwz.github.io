@@ -69,6 +69,8 @@ p {
   }
 }
 
+div#index-actions { margin-bottom: 50px; }
+
 
 /* -------------------------------------
 
@@ -77,15 +79,16 @@ p {
 ------------------------------------- */
 
 @media (min-width: $mobile-size) {
-  div#index-actions { 
-    margin-bottom: 50px;
-    a.button { 
-      display: block;
-      margin-bottom: 10px;
-    }
+  div#index-actions a.button { 
+    display: block;
+    margin-bottom: 10px;
   }
 }
 
 @media (min-width: $tablet-size) {
-  div#index-actions a:not(:last-child) { margin-right: 10px; }
+  div#index-actions a.button { 
+    display: inline-block;
+    margin-bottom: none;
+    &:not(:last-child) { margin-right: 10px; }
+  }
 }

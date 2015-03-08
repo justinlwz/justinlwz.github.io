@@ -2699,19 +2699,23 @@ p {
     left: 0;
     background: #A1A1A1; }
 
+div#index-actions {
+  margin-bottom: 50px; }
+
 /* -------------------------------------
 
   Media Queries
 
 ------------------------------------- */
 @media (min-width: 320px) {
-  div#index-actions {
-    margin-bottom: 50px; }
-    div#index-actions a.button {
-      display: block;
-      margin-bottom: 10px; } }
+  div#index-actions a.button {
+    display: block;
+    margin-bottom: 10px; } }
 
 @media (min-width: 640px) {
-  div#index-actions a:not(:last-child) {
-    margin-right: 10px; } }
+  div#index-actions a.button {
+    display: inline-block;
+    margin-bottom: none; }
+    div#index-actions a.button:not(:last-child) {
+      margin-right: 10px; } }
 /*# sourceMappingURL=index.css.map */
