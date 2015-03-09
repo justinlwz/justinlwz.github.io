@@ -2641,7 +2641,10 @@ h1#logo {
 ------------------------------------- */
 header {
   height: 100%;
-  z-index: 1; }
+  z-index: 1;
+  pointer-events: none; }
+  header a {
+    pointer-events: initial; }
 
 div#particles {
   width: 100%;
