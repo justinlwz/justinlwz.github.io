@@ -52,7 +52,7 @@ particlesJS('particles', {
     },
     events: {
       onclick: {
-        enable: true,
+        enable: false,
         mode: 'push', // "push" or "remove"
         nb: 2
       },
