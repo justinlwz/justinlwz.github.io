@@ -13,13 +13,13 @@
 
 ------------------------------------- */
 
-$type-grid: true;
+$type-grid: false;
 
 // Base Styles
 $sans-stack:     "calluna-sans", "Helvetica Neue", Helvetica, Arial, Calibri, sans-serif;
 $serif-stack:    "calluna", Georgia,Times, "Times New Roman",serif;
 $base-font-size: 14px !default;    // Base Size (px)
-$base-rhythm:    20px !default;    // Vertical Rhythm (px)
+$base-rhythm:    25px !default;    // Vertical Rhythm (px)
 $base-weight:    normal !default;
 
 // Colours

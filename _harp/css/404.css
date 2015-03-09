@@ -1702,11 +1702,8 @@ body {
 html {
   font-family: "calluna-sans", "Helvetica Neue", Helvetica, Arial, Calibri, sans-serif;
   font-size: 87.5%;
-  line-height: 20px;
+  line-height: 25px;
   font-weight: normal; }
-
-body {
-  background-image: url("http://basehold.it/i/20"); }
 
 /* ----------------------------------------
 
@@ -1717,54 +1714,54 @@ h1 {
   font-family: "calluna-sans", "Helvetica Neue", Helvetica, Arial, Calibri, sans-serif;
   font-weight: 300;
   font-size: 3.14286rem;
-  line-height: 1.36364;
+  line-height: 1.70455;
   margin-top: 0px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   color: #333333; }
 
 h2 {
   font-family: "calluna-sans", "Helvetica Neue", Helvetica, Arial, Calibri, sans-serif;
   font-weight: 400;
   font-size: 1.92857rem;
-  line-height: 1.48148;
+  line-height: 1.85185;
   margin-top: 0px;
-  margin-bottom: 10px;
+  margin-bottom: 12.5px;
   color: #333333; }
 
 h3 {
   font-family: "calluna-sans", "Helvetica Neue", Helvetica, Arial, Calibri, sans-serif;
   font-weight: 400;
   font-size: 1.64286rem;
-  line-height: 1.30435;
+  line-height: 1.63043;
   margin-top: 0px;
-  margin-bottom: 30px;
+  margin-bottom: 37.5px;
   color: #333333; }
 
 h4 {
   font-family: "calluna-sans", "Helvetica Neue", Helvetica, Arial, Calibri, sans-serif;
   font-weight: 400;
   font-size: 1.28571rem;
-  line-height: 1.66667;
+  line-height: 2.08333;
   margin-top: 0px;
-  margin-bottom: 30px;
+  margin-bottom: 37.5px;
   color: #333333; }
 
 h5 {
   font-family: "calluna-sans", "Helvetica Neue", Helvetica, Arial, Calibri, sans-serif;
   font-weight: 600;
   font-size: 1rem;
-  line-height: 1.42857;
+  line-height: 1.78571;
   margin-top: 0px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   color: #333333; }
 
 h6 {
   font-family: "calluna-sans", "Helvetica Neue", Helvetica, Arial, Calibri, sans-serif;
   font-weight: 600;
   font-size: 0.85714rem;
-  line-height: 2.5;
+  line-height: 3.125;
   margin-top: 0px;
-  margin-bottom: 30px;
+  margin-bottom: 37.5px;
   color: #333333; }
 
 /* ----------------------------------------
@@ -1776,9 +1773,9 @@ p {
   font-family: "calluna-sans", "Helvetica Neue", Helvetica, Arial, Calibri, sans-serif;
   font-weight: 300;
   font-size: 1rem;
-  line-height: 1.42857;
+  line-height: 1.78571;
   margin-top: 0px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   color: #333333; }
 
 a {
@@ -1791,27 +1788,27 @@ a {
 ul {
   padding-left: 20px;
   margin-top: 0px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   list-style-position: outside;
   list-style-type: square; }
   ul li {
     font-family: "calluna-sans", "Helvetica Neue", Helvetica, Arial, Calibri, sans-serif;
     font-weight: 300;
     font-size: 1rem;
-    line-height: 1.42857;
+    line-height: 1.78571;
     color: #333333; }
 
 ol {
   padding-left: 20px;
   margin-top: 0px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   list-style-position: outside;
   list-style-type: normal; }
   ol li {
     font-family: "calluna-sans", "Helvetica Neue", Helvetica, Arial, Calibri, sans-serif;
     font-weight: 300;
     font-size: 1rem;
-    line-height: 1.42857;
+    line-height: 1.78571;
     color: #333333; }
 
 /* ----------------------------------------
@@ -1823,7 +1820,7 @@ blockquote {
   font-family: "calluna-sans", "Helvetica Neue", Helvetica, Arial, Calibri, sans-serif;
   font-weight: 300;
   font-size: 1rem;
-  line-height: 1.42857; }
+  line-height: 1.78571; }
   blockquote:before {
     content: open-quote; }
   blockquote:after {
@@ -1833,8 +1830,8 @@ cite {
   font-family: "calluna-sans", "Helvetica Neue", Helvetica, Arial, Calibri, sans-serif;
   font-weight: 300;
   font-size: 1rem;
-  line-height: 1.42857;
-  margin-bottom: 20px;
+  line-height: 1.78571;
+  margin-bottom: 25px;
   display: block;
   color: #333333;
   font-style: normal;
@@ -1849,7 +1846,7 @@ code {
   font-family: monospace;
   font-weight: 600;
   font-size: 1.14286rem;
-  line-height: 1.25;
+  line-height: 1.5625;
   color: #E67E22;
   font-style: normal; }
 
@@ -1875,18 +1872,6 @@ code {
   Test Grid
 
 ------------------------------------- */
-.test-grid {
-  font-size: 12px;
-  color: #666666;
-  text-align: center;
-  padding: 10px 0;
-  background-color: rgba(222, 219, 211, 0.7);
-  outline: solid thin #c7c3b5; }
-  .test-grid > * {
-    padding: 10px;
-    background-color: rgba(222, 219, 211, 0.7);
-    outline: solid thin #c7c3b5; }
-
 /* -------------------------------------
 
   Layout Classes
@@ -2637,7 +2622,7 @@ h1#logo {
   font-family: "calluna-sans", "Helvetica Neue", Helvetica, Arial, Calibri, sans-serif;
   font-weight: 600;
   font-size: 1.14286rem;
-  line-height: 1.25;
+  line-height: 1.5625;
   margin-top: 0px;
   margin-bottom: 0px; }
   h1#logo a, h1#logo a:visited, h1#logo a:hover, h1#logo a:focus {

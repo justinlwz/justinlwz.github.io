@@ -49,13 +49,13 @@ h1#logo {
 }
 
 h2 {
-  @include type-setter($family:$serif-stack, $weight:300, $size:24px, $lines:auto);
+  @include type-setter($family:$serif-stack, $weight:300, $size:24px, $lines:1.5);
   @include leader-setter(0);
   @include trailer-setter(2);
 }
 
 p {
-  @include type-setter($weight:400, $size:18px, $lines:1.3);
+  @include type-setter($weight:400, $size:18px, $lines:1);
   @include leader-setter(0);
   @include trailer-setter(1.25);
   &:before {
