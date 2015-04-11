@@ -42,7 +42,7 @@ h1#logo {
 h2 {
   @include type-setter($family:$serif-stack, $weight:300, $size:24px, $lines:1.5);
   @include leader-setter(0);
-  @include trailer-setter(0);
+  @include trailer-setter(1);
 }
 
 div#index-actions a.button { 
