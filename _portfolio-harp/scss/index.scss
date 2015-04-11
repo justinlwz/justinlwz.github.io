@@ -42,7 +42,7 @@ h1#logo {
 h2 {
   @include type-setter($family:$serif-stack, $weight:300, $size:24px, $lines:1.5);
   @include leader-setter(0);
-  @include trailer-setter(1.5);
+  @include trailer-setter(0);
 }
 
 div#index-actions a.button { 
@@ -76,7 +76,7 @@ nav#portfolio-list {
 
 @media (min-width: $tablet-size) {
   
-  header { padding: 100px 0 140px 0; }
+  header { padding: 100px 0; }
 
   h1#logo {
     @include leader-setter(0);

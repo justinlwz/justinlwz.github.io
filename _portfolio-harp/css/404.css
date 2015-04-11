@@ -2411,33 +2411,6 @@ button.quiet, a.button.quiet {
     cursor: pointer;
     color: #36BECC; }
 
-button.linkedin, a.button.linkedin {
-  color: white;
-  background: #0976B4;
-  border: none;
-  border-radius: none; }
-  button.linkedin:hover, button.linkedin:active, a.button.linkedin:hover, a.button.linkedin:active {
-    cursor: pointer;
-    background: #08669c; }
-
-button.github, a.button.github {
-  color: white;
-  background: #333333;
-  border: none;
-  border-radius: none; }
-  button.github:hover, button.github:active, a.button.github:hover, a.button.github:active {
-    cursor: pointer;
-    background: #404040; }
-
-button.twitter, a.button.twitter {
-  color: white;
-  background: #55ACEE;
-  border: none;
-  border-radius: none; }
-  button.twitter:hover, button.twitter:active, a.button.twitter:hover, a.button.twitter:active {
-    cursor: pointer;
-    background: #3ea1ec; }
-
 /* -------------------------------------
 
   Button Types
@@ -2617,25 +2590,55 @@ h1#logo {
 */
 /* -------------------------------------
 
-  Layouts
+  Variables
 
 ------------------------------------- */
-h1#logo {
+/* -------------------------------------
+
+  Mobile Styles (Default)
+
+------------------------------------- */
+footer {
+  height: 70px;
+  padding: 0 10px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+footer p {
   font-family: "calluna-sans", "Helvetica Neue", Helvetica, Arial, Calibri, sans-serif;
-  font-weight: 600;
-  font-size: 1rem;
-  line-height: 1.375;
+  font-weight: 300;
+  font-size: 0.8125rem;
+  line-height: 3.38462;
   margin-top: 0px;
-  margin-bottom: 0px; }
-  h1#logo > * {
-    display: block; }
-  h1#logo a, h1#logo a:visited, h1#logo a:hover, h1#logo a:focus {
-    font-size: inherit;
-    font-weight: inherit;
-    text-decoration: none;
-    color: inherit; }
-  h1#logo span#job {
-    font-weight: 300; }
+  margin-bottom: 0px;
+  color: #999999; }
+
+section#social-actions a {
+  font-family: "calluna-sans", "Helvetica Neue", Helvetica, Arial, Calibri, sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 2.75;
+  width: 44px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center; }
+  section#social-actions a.linkedin {
+    color: #0976B4; }
+    section#social-actions a.linkedin:hover, section#social-actions a.linkedin:active {
+      color: white;
+      background: #08669c; }
+  section#social-actions a.github {
+    color: #333333; }
+    section#social-actions a.github:hover, section#social-actions a.github:active {
+      color: white;
+      background: #404040; }
+  section#social-actions a.twitter {
+    color: #55ACEE; }
+    section#social-actions a.twitter:hover, section#social-actions a.twitter:active {
+      color: white;
+      background: #3ea1ec; }
 
 /* -------------------------------------
 

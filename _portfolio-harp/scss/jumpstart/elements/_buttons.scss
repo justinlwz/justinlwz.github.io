@@ -39,17 +39,6 @@ $button-hover-color: #36BECC !default;
 $button-disabled-text: #999999 !default;
 $button-disabled-bg:   #BDC3C7 !default;
 
-// Social
-$button-twitter:       #55ACEE !default;
-$button-twitter-hover: darken(#55ACEE, 5%) !default;
-
-$button-linkedin:       #0976B4 !default;
-$button-linkedin-hover: darken(#0976B4, 5%) !default;
-
-$button-github:       #333333 !default;
-$button-github-hover: lighten(#333333, 5%) !default;
-
-
 
 /* -------------------------------------
 
@@ -142,46 +131,6 @@ a.button.quiet {
     color: $button-hover-color;
   }
 }
-
-// LinkedIn
-button.linkedin,
-a.button.linkedin {
-  color: white;
-  background: $button-linkedin;
-  border: none;
-  border-radius: none;
-  &:hover, &:active {
-    cursor: $cursor-pointer-value;
-    background:$button-linkedin-hover;
-  }
-}
-
-// Github
-button.github,
-a.button.github {
-  color: white;
-  background: $button-github;
-  border: none;
-  border-radius: none;
-  &:hover, &:active {
-    cursor: $cursor-pointer-value;
-    background: $button-github-hover;
-  }
-}
-
-// Twitter
-button.twitter,
-a.button.twitter {
-  color: white;
-  background: $button-twitter;
-  border: none;
-  border-radius: none;
-  &:hover, &:active {
-    cursor: $cursor-pointer-value;
-    background: $button-twitter-hover;
-  }
-}
-
 
 
 /* -------------------------------------

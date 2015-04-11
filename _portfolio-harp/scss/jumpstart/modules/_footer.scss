@@ -9,25 +9,68 @@
 
 /* -------------------------------------
 
-  Layouts
+  Variables
 
 ------------------------------------- */
 
-h1#logo {
-  @include type-setter($family:$sans-stack, $weight:600, $size:16px, $lines:1);
+$button-twitter:       #55ACEE !default;
+$button-twitter-hover: darken(#55ACEE, 5%) !default;
+
+$button-linkedin:       #0976B4 !default;
+$button-linkedin-hover: darken(#0976B4, 5%) !default;
+
+$button-github:       #333333 !default;
+$button-github-hover: lighten(#333333, 5%) !default;
+
+
+/* -------------------------------------
+
+  Mobile Styles (Default)
+
+------------------------------------- */
+
+footer { 
+  height: 70px;
+  padding: 0 10px;
+  justify-content: space-between; 
+}
+
+footer p {
+  @include type-setter($weight:300, $size:13px, $lines:2);
   @include leader-setter(0);
   @include trailer-setter(0);
+  color: $text-color-light;
+}
 
-  > * { display: block; }
-
-  a, a:visited, a:hover, a:focus {
-    font-size: inherit;
-    font-weight: inherit;
-    text-decoration: none;
-    color: inherit;
+section#social-actions a { 
+  @include type-setter($weight:300, $size:16px, $lines:2);
+  width: 44px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  &.linkedin {
+    color: $button-linkedin;
+    &:hover, &:active {
+      color: white;
+      background: $button-linkedin-hover;
+    }
   }
 
-  span#job {
-    font-weight: 300;
+  // Github
+  &.github {
+    color: $button-github;
+    &:hover, &:active {
+      color: white;
+      background: $button-github-hover;
+    }
+  }
+
+  // Twitter
+  &.twitter {
+    color: $button-twitter;
+    &:hover, &:active {
+      color: white;
+      background: $button-twitter-hover;
+    }
   }
 }
