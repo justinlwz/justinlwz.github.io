@@ -1920,6 +1920,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},
+	"\/scss\/jumpstart\/modules\/_footer.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/jumpstart\/modules\/_footer.scss",
+		"outputAbbreviatedPath": "\/scss\/jumpstart\/css\/_footer.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
 	"\/scss\/jumpstart\/modules\/_main-nav.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,

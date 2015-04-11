@@ -23,75 +23,69 @@
 ------------------------------------- */
 
 header {
-  height: 100%;
-  z-index: 1;
-  pointer-events: none;
-  a { pointer-events: initial; }
-}
-
-div#particles {
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  left: 0;
-  top: 0;
-  background: #F7F7F7;
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 
 
 /* -------------------------------------
 
-  Styles
+  Mobile Styles (Default)
 
 ------------------------------------- */
 
 h1#logo {
   @include leader-setter(1);
-  @include trailer-setter(1);
+  @include trailer-setter(1.5);
 }
 
 h2 {
   @include type-setter($family:$serif-stack, $weight:300, $size:24px, $lines:1.5);
   @include leader-setter(0);
-  @include trailer-setter(2);
+  @include trailer-setter(1.5);
 }
 
-p {
-  @include type-setter($weight:400, $size:18px, $lines:1);
-  @include leader-setter(0);
-  @include trailer-setter(1.25);
-  &:before {
-    content: " ";
-    width: 20px;
-    height: 1px;
-    display: block;
-    position: absolute;
-    top: -20px;
-    left: 0;
-    background: #A1A1A1;
+div#index-actions a.button { 
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: none;
+  &:not(:last-child) { margin-right: 10px; }
+}
+
+nav#portfolio-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  div.work {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    img { 
+      width: 100%;
+      height: auto;
+    }
   }
 }
-
-div#index-actions { margin-bottom: 50px; }
 
 
 /* -------------------------------------
 
-  Media Queries
+  Tablet Styles
 
 ------------------------------------- */
 
-@media (min-width: $mobile-size) {
-  div#index-actions a.button { 
-    display: block;
-    margin-bottom: 10px;
-  }
-}
-
 @media (min-width: $tablet-size) {
-  div#index-actions a.button { 
-    display: inline-block;
-    margin-bottom: none;
-    &:not(:last-child) { margin-right: 10px; }
+  
+  header { padding: 100px 0 140px 0; }
+
+  h1#logo {
+    @include leader-setter(0);
+    @include trailer-setter(0);
   }
+  
+  nav#portfolio-list div.work {
+    width: 25vw;
+    height: 25vw;
+  }
+
 }

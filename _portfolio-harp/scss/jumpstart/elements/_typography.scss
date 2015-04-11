@@ -18,8 +18,8 @@ $type-grid: false;
 // Base Styles
 $sans-stack:     "calluna-sans", "Helvetica Neue", Helvetica, Arial, Calibri, sans-serif;
 $serif-stack:    "calluna", Georgia,Times, "Times New Roman",serif;
-$base-font-size: 14px !default;    // Base Size (px)
-$base-rhythm:    25px !default;    // Vertical Rhythm (px)
+$base-font-size: 16px !default;    // Base Size (px)
+$base-rhythm:    22px !default;    // Vertical Rhythm (px)
 $base-weight:    normal !default;
 
 // Colours
@@ -111,7 +111,7 @@ html {
 ---------------------------------------- */
 
 h1 {
-  @include type-setter($family:$sans-stack, $weight:300, $size:44px, $lines:3);
+  @include type-setter($family:$sans-stack, $weight:300, $size:42px, $lines:2);
   @include leader-setter(0);
   @include trailer-setter(1);
   // Styles
@@ -119,41 +119,17 @@ h1 {
 }
 
 h2 {
-  @include type-setter($family:$sans-stack, $weight:400, $size:27px, $lines:auto);
-  @include leader-setter(0);
-  @include trailer-setter(0.5);
-  // Styles
-  color: $text-color;
-}
-
-h3 {
-  @include type-setter($family:$sans-stack, $weight:400, $size:23px, $lines:1.5);
-  @include leader-setter(0);
-  @include trailer-setter(1.5);
-  // Styles
-  color: $text-color;
-}
-
-h4 {
-  @include type-setter($family:$sans-stack, $weight:400, $size:18px, $lines:1.5);
-  @include leader-setter(0);
-  @include trailer-setter(1.5);
-  // Styles
-  color: $text-color;
-}
-
-h5 {
-  @include type-setter($family:$sans-stack, $weight:600, $size:14px, $lines:auto);
+  @include type-setter($family:$sans-stack, $weight:400, $size:26px, $lines:2);
   @include leader-setter(0);
   @include trailer-setter(1);
   // Styles
   color: $text-color;
 }
 
-h6 {
-  @include type-setter($family:$sans-stack, $weight:600, $size:12px, $lines:1.5);
+h3 {
+  @include type-setter($family:$sans-stack, $weight:400, $size:16px, $lines:1);
   @include leader-setter(0);
-  @include trailer-setter(1.5);
+  @include trailer-setter(1);
   // Styles
   color: $text-color;
 }
@@ -167,7 +143,7 @@ h6 {
 
 
 p {
-  @include type-setter($family:$sans-stack, $weight:300, $size:14px, $lines:1);
+  @include type-setter($family:$sans-stack, $weight:300, $size:16px, $lines:1);
   @include leader-setter(0);
   @include trailer-setter(1);
   // Styles

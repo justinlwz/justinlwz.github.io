@@ -1701,8 +1701,8 @@ body {
 ------------------------------------- */
 html {
   font-family: "calluna-sans", "Helvetica Neue", Helvetica, Arial, Calibri, sans-serif;
-  font-size: 87.5%;
-  line-height: 25px;
+  font-size: 100%;
+  line-height: 22px;
   font-weight: normal; }
 
 /* ----------------------------------------
@@ -1713,55 +1713,28 @@ html {
 h1 {
   font-family: "calluna-sans", "Helvetica Neue", Helvetica, Arial, Calibri, sans-serif;
   font-weight: 300;
-  font-size: 3.14286rem;
-  line-height: 1.70455;
+  font-size: 2.625rem;
+  line-height: 1.04762;
   margin-top: 0px;
-  margin-bottom: 25px;
+  margin-bottom: 22px;
   color: #333333; }
 
 h2 {
   font-family: "calluna-sans", "Helvetica Neue", Helvetica, Arial, Calibri, sans-serif;
   font-weight: 400;
-  font-size: 1.92857rem;
-  line-height: 1.85185;
+  font-size: 1.625rem;
+  line-height: 1.69231;
   margin-top: 0px;
-  margin-bottom: 12.5px;
+  margin-bottom: 22px;
   color: #333333; }
 
 h3 {
   font-family: "calluna-sans", "Helvetica Neue", Helvetica, Arial, Calibri, sans-serif;
   font-weight: 400;
-  font-size: 1.64286rem;
-  line-height: 1.63043;
-  margin-top: 0px;
-  margin-bottom: 37.5px;
-  color: #333333; }
-
-h4 {
-  font-family: "calluna-sans", "Helvetica Neue", Helvetica, Arial, Calibri, sans-serif;
-  font-weight: 400;
-  font-size: 1.28571rem;
-  line-height: 2.08333;
-  margin-top: 0px;
-  margin-bottom: 37.5px;
-  color: #333333; }
-
-h5 {
-  font-family: "calluna-sans", "Helvetica Neue", Helvetica, Arial, Calibri, sans-serif;
-  font-weight: 600;
   font-size: 1rem;
-  line-height: 1.78571;
+  line-height: 1.375;
   margin-top: 0px;
-  margin-bottom: 25px;
-  color: #333333; }
-
-h6 {
-  font-family: "calluna-sans", "Helvetica Neue", Helvetica, Arial, Calibri, sans-serif;
-  font-weight: 600;
-  font-size: 0.85714rem;
-  line-height: 3.125;
-  margin-top: 0px;
-  margin-bottom: 37.5px;
+  margin-bottom: 22px;
   color: #333333; }
 
 /* ----------------------------------------
@@ -1773,9 +1746,9 @@ p {
   font-family: "calluna-sans", "Helvetica Neue", Helvetica, Arial, Calibri, sans-serif;
   font-weight: 300;
   font-size: 1rem;
-  line-height: 1.78571;
+  line-height: 1.375;
   margin-top: 0px;
-  margin-bottom: 25px;
+  margin-bottom: 22px;
   color: #333333; }
 
 a {
@@ -1788,27 +1761,27 @@ a {
 ul {
   padding-left: 20px;
   margin-top: 0px;
-  margin-bottom: 25px;
+  margin-bottom: 22px;
   list-style-position: outside;
   list-style-type: square; }
   ul li {
     font-family: "calluna-sans", "Helvetica Neue", Helvetica, Arial, Calibri, sans-serif;
     font-weight: 300;
-    font-size: 1rem;
-    line-height: 1.78571;
+    font-size: 0.875rem;
+    line-height: 1.57143;
     color: #333333; }
 
 ol {
   padding-left: 20px;
   margin-top: 0px;
-  margin-bottom: 25px;
+  margin-bottom: 22px;
   list-style-position: outside;
   list-style-type: normal; }
   ol li {
     font-family: "calluna-sans", "Helvetica Neue", Helvetica, Arial, Calibri, sans-serif;
     font-weight: 300;
-    font-size: 1rem;
-    line-height: 1.78571;
+    font-size: 0.875rem;
+    line-height: 1.57143;
     color: #333333; }
 
 /* ----------------------------------------
@@ -1819,8 +1792,8 @@ ol {
 blockquote {
   font-family: "calluna-sans", "Helvetica Neue", Helvetica, Arial, Calibri, sans-serif;
   font-weight: 300;
-  font-size: 1rem;
-  line-height: 1.78571; }
+  font-size: 0.875rem;
+  line-height: 1.57143; }
   blockquote:before {
     content: open-quote; }
   blockquote:after {
@@ -1829,9 +1802,9 @@ blockquote {
 cite {
   font-family: "calluna-sans", "Helvetica Neue", Helvetica, Arial, Calibri, sans-serif;
   font-weight: 300;
-  font-size: 1rem;
-  line-height: 1.78571;
-  margin-bottom: 25px;
+  font-size: 0.875rem;
+  line-height: 1.57143;
+  margin-bottom: 22px;
   display: block;
   color: #333333;
   font-style: normal;
@@ -1845,8 +1818,8 @@ cite {
 code {
   font-family: monospace;
   font-weight: 600;
-  font-size: 1.14286rem;
-  line-height: 1.5625;
+  font-size: 1rem;
+  line-height: 1.375;
   color: #E67E22;
   font-style: normal; }
 
@@ -2621,18 +2594,48 @@ button.icon-right, a.button.icon-right {
 h1#logo {
   font-family: "calluna-sans", "Helvetica Neue", Helvetica, Arial, Calibri, sans-serif;
   font-weight: 600;
-  font-size: 1.14286rem;
-  line-height: 1.5625;
+  font-size: 1rem;
+  line-height: 1.375;
   margin-top: 0px;
   margin-bottom: 0px; }
+  h1#logo > * {
+    display: block; }
   h1#logo a, h1#logo a:visited, h1#logo a:hover, h1#logo a:focus {
     font-size: inherit;
     font-weight: inherit;
     text-decoration: none;
     color: inherit; }
   h1#logo span#job {
-    font-weight: 300;
-    margin-left: 10px; }
+    font-weight: 300; }
+
+/*
+
+
+  Footer Styles
+
+
+*/
+/* -------------------------------------
+
+  Layouts
+
+------------------------------------- */
+h1#logo {
+  font-family: "calluna-sans", "Helvetica Neue", Helvetica, Arial, Calibri, sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.375;
+  margin-top: 0px;
+  margin-bottom: 0px; }
+  h1#logo > * {
+    display: block; }
+  h1#logo a, h1#logo a:visited, h1#logo a:hover, h1#logo a:focus {
+    font-size: inherit;
+    font-weight: inherit;
+    text-decoration: none;
+    color: inherit; }
+  h1#logo span#job {
+    font-weight: 300; }
 
 /* -------------------------------------
 
