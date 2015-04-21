@@ -56,9 +56,10 @@ nav#portfolio-list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  div.work {
+  figure.work {
     width: 100%;
     height: 250px;
+    margin: 0;
     overflow: hidden;
     img { 
       width: 100%;
@@ -83,7 +84,7 @@ nav#portfolio-list {
     @include trailer-setter(0);
   }
   
-  nav#portfolio-list div.work {
+  nav#portfolio-list figure.work {
     width: 25vw;
     height: 25vw;
   }

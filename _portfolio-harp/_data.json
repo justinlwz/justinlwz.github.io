@@ -5,12 +5,12 @@
   },
   "about": {
     "layout" : "layouts/base",
-    "title"  : "justin.lim / about",
+    "title"  : "justinl.im / about",
     "cssURL" : "about.css"
   },
   "404": {
     "layout" : "layouts/base",
-    "title"  : "justin.lim / 404",
+    "title"  : "justinl.im / 404",
     "cssURL" : "404.css"
   }
 }
