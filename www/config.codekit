@@ -1,0 +1,4771 @@
+{
+"CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
+"creatorBuild": "18892",
+"files": {
+	"\/404.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/404.jade",
+		"outputAbbreviatedPath": "\/404.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/_data.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_data.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/_data-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/_harp.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_harp.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/_harp-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/css\/404.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/404.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/index.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/index.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/jumpstart.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/jumpstart.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/normalize.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/normalize.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/images\/share.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52380,
+		"inputAbbreviatedPath": "\/images\/share.png",
+		"outputAbbreviatedPath": "\/images\/share.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/index.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.jade",
+		"outputAbbreviatedPath": "\/index.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/javascripts\/404.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/404.js",
+		"outputAbbreviatedPath": "\/javascripts\/404-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/app.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/app.js",
+		"outputAbbreviatedPath": "\/javascripts\/app-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/index.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/index.js",
+		"outputAbbreviatedPath": "\/javascripts\/index-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/a-download.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/a-download.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/a-download-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/audio-audiodata-api.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/audio-audiodata-api.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/audio-audiodata-api-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/audio-webaudio-api.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/audio-webaudio-api.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/audio-webaudio-api-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/battery-api.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/battery-api.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/battery-api-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/battery-level.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/battery-level.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/battery-level-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/blob-constructor.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/blob-constructor.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/blob-constructor-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/canvas-todataurl-type.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/canvas-todataurl-type.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/canvas-todataurl-type-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/contenteditable.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/contenteditable.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/contenteditable-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/contentsecuritypolicy.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/contentsecuritypolicy.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/contentsecuritypolicy-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/contextmenu.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/contextmenu.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/contextmenu-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/cookies.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/cookies.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/cookies-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/cors.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/cors.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/cors-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/css-backgroundposition-shorthand.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-backgroundposition-shorthand.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-backgroundposition-shorthand-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/css-backgroundposition-xy.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-backgroundposition-xy.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-backgroundposition-xy-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/css-backgroundrepeat.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-backgroundrepeat.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-backgroundrepeat-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/css-backgroundsizecover.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-backgroundsizecover.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-backgroundsizecover-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/css-boxsizing.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-boxsizing.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-boxsizing-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/css-calc.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-calc.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-calc-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/css-cubicbezierrange.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-cubicbezierrange.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-cubicbezierrange-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/css-displayrunin.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-displayrunin.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-displayrunin-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/css-displaytable.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-displaytable.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-displaytable-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/css-filters.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-filters.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-filters-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/css-hyphens.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-hyphens.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-hyphens-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/css-lastchild.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-lastchild.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-lastchild-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/css-mask.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-mask.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-mask-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/css-mediaqueries.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-mediaqueries.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-mediaqueries-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/css-objectfit.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-objectfit.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-objectfit-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/css-overflow-scrolling.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-overflow-scrolling.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-overflow-scrolling-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/css-pointerevents.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-pointerevents.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-pointerevents-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/css-positionsticky.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-positionsticky.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-positionsticky-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/css-regions.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-regions.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-regions-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/css-remunit.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-remunit.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-remunit-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/css-resize.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-resize.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-resize-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/css-scrollbars.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-scrollbars.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-scrollbars-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/css-shapes.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-shapes.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-shapes-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/css-subpixelfont.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-subpixelfont.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-subpixelfont-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/css-supports.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-supports.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-supports-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/css-userselect.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-userselect.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-userselect-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/css-vhunit.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-vhunit.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-vhunit-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/css-vmaxunit.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-vmaxunit.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-vmaxunit-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/css-vminunit.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-vminunit.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-vminunit-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/css-vwunit.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-vwunit.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/css-vwunit-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/custom-protocol-handler.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/custom-protocol-handler.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/custom-protocol-handler-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/dart.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/dart.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/dart-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/dataview-api.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/dataview-api.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/dataview-api-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/dom-classlist.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/dom-classlist.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/dom-classlist-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/dom-createElement-attrs.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/dom-createElement-attrs.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/dom-createElement-attrs-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/dom-dataset.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/dom-dataset.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/dom-dataset-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/dom-microdata.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/dom-microdata.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/dom-microdata-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/elem-datalist.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/elem-datalist.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/elem-datalist-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/elem-details.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/elem-details.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/elem-details-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/elem-output.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/elem-output.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/elem-output-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/elem-progress-meter.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/elem-progress-meter.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/elem-progress-meter-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/elem-ruby.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/elem-ruby.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/elem-ruby-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/elem-time.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/elem-time.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/elem-time-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/elem-track.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/elem-track.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/elem-track-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/emoji.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/emoji.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/emoji-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/es5-strictmode.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/es5-strictmode.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/es5-strictmode-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/event-deviceorientation-motion.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/event-deviceorientation-motion.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/event-deviceorientation-motion-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/exif-orientation.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/exif-orientation.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/exif-orientation-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/file-api.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/file-api.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/file-api-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/file-filesystem.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/file-filesystem.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/file-filesystem-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/forms-fileinput.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/forms-fileinput.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/forms-fileinput-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/forms-formattribute.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/forms-formattribute.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/forms-formattribute-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/forms-inputnumber-l10n.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/forms-inputnumber-l10n.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/forms-inputnumber-l10n-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/forms-placeholder.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/forms-placeholder.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/forms-placeholder-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/forms-speechinput.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/forms-speechinput.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/forms-speechinput-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/forms-validation.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/forms-validation.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/forms-validation-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/fullscreen-api.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/fullscreen-api.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/fullscreen-api-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/gamepad.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/gamepad.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/gamepad-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/getusermedia.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/getusermedia.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/getusermedia-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/ie8compat.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/ie8compat.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/ie8compat-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/iframe-sandbox.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/iframe-sandbox.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/iframe-sandbox-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/iframe-seamless.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/iframe-seamless.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/iframe-seamless-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/iframe-srcdoc.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/iframe-srcdoc.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/iframe-srcdoc-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/img-apng.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/img-apng.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/img-apng-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/img-webp.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/img-webp.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/img-webp-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/json.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/json.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/json-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/lists-reversed.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/lists-reversed.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/lists-reversed-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/mathml.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/mathml.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/mathml-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/network-connection.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/network-connection.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/network-connection-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/network-eventsource.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/network-eventsource.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/network-eventsource-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/network-xhr2.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/network-xhr2.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/network-xhr2-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/notification.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/notification.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/notification-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/performance.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/performance.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/performance-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/pointerlock-api.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/pointerlock-api.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/pointerlock-api-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/quota-management-api.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/quota-management-api.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/quota-management-api-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/requestanimationframe.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/requestanimationframe.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/requestanimationframe-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/script-async.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/script-async.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/script-async-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/script-defer.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/script-defer.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/script-defer-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/style-scoped.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/style-scoped.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/style-scoped-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/svg-filters.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/svg-filters.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/svg-filters-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/unicode.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/unicode.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/unicode-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/url-data-uri.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/url-data-uri.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/url-data-uri-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/userdata.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/userdata.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/userdata-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/vibration.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/vibration.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/vibration-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/web-intents.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/web-intents.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/web-intents-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/webgl-extensions.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/webgl-extensions.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/webgl-extensions-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/websockets-binary.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/websockets-binary.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/websockets-binary-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/window-framed.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/window-framed.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/window-framed-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/workers-blobworkers.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/workers-blobworkers.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/workers-blobworkers-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/workers-dataworkers.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/workers-dataworkers.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/workers-dataworkers-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/feature-detects\/workers-sharedworkers.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/workers-sharedworkers.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/feature-detects\/workers-sharedworkers-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/grunt.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/grunt.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/grunt-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/media\/Modernizr 2 Logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14823,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/media\/Modernizr 2 Logo.png",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/media\/Modernizr 2 Logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/javascripts\/modernizr\/modernizr.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/modernizr.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/modernizr-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/readme.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/readme.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/readme.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/javascripts\/modernizr\/test\/basic.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/test\/basic.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/javascripts\/modernizr\/test\/caniuse.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/test\/caniuse.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/javascripts\/modernizr\/test\/caniuse_files\/alpha.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 163,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/test\/caniuse_files\/alpha.png",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/test\/caniuse_files\/alpha.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/javascripts\/modernizr\/test\/caniuse_files\/apng_test.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 195,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/test\/caniuse_files\/apng_test.png",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/test\/caniuse_files\/apng_test.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/javascripts\/modernizr\/test\/caniuse_files\/before-after.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 452,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/test\/caniuse_files\/before-after.png",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/test\/caniuse_files\/before-after.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/javascripts\/modernizr\/test\/caniuse_files\/form_validation.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/test\/caniuse_files\/form_validation.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/javascripts\/modernizr\/test\/caniuse_files\/ga.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/test\/caniuse_files\/ga.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/test\/caniuse_files\/ga-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/test\/caniuse_files\/green5x5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/test\/caniuse_files\/green5x5.png",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/test\/caniuse_files\/green5x5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/javascripts\/modernizr\/test\/caniuse_files\/hashchange.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/test\/caniuse_files\/hashchange.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/javascripts\/modernizr\/test\/caniuse_files\/jquery.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/test\/caniuse_files\/jquery.min.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/test\/caniuse_files\/jquery.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/test\/caniuse_files\/mathml.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/test\/caniuse_files\/mathml.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/javascripts\/modernizr\/test\/caniuse_files\/mathml_ref.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3140,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/test\/caniuse_files\/mathml_ref.png",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/test\/caniuse_files\/mathml_ref.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/javascripts\/modernizr\/test\/caniuse_files\/modernizr-1.7.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/test\/caniuse_files\/modernizr-1.7.min.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/test\/caniuse_files\/modernizr-1.7.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/test\/caniuse_files\/png_alpha_result.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 214,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/test\/caniuse_files\/png_alpha_result.png",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/test\/caniuse_files\/png_alpha_result.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/javascripts\/modernizr\/test\/caniuse_files\/pushstate.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/test\/caniuse_files\/pushstate.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/javascripts\/modernizr\/test\/caniuse_files\/red30x30.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 93,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/test\/caniuse_files\/red30x30.png",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/test\/caniuse_files\/red30x30.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/javascripts\/modernizr\/test\/caniuse_files\/ruby.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1339,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/test\/caniuse_files\/ruby.png",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/test\/caniuse_files\/ruby.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/javascripts\/modernizr\/test\/caniuse_files\/stroked-text.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1291,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/test\/caniuse_files\/stroked-text.png",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/test\/caniuse_files\/stroked-text.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/javascripts\/modernizr\/test\/caniuse_files\/style.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/test\/caniuse_files\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/javascripts\/modernizr\/test\/caniuse_files\/svg-html-blur.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1232,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/test\/caniuse_files\/svg-html-blur.png",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/test\/caniuse_files\/svg-html-blur.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/javascripts\/modernizr\/test\/caniuse_files\/svg_blur.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3742,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/test\/caniuse_files\/svg_blur.png",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/test\/caniuse_files\/svg_blur.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/javascripts\/modernizr\/test\/caniuse_files\/table.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2519,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/test\/caniuse_files\/table.png",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/test\/caniuse_files\/table.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/javascripts\/modernizr\/test\/caniuse_files\/text-shadow1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 796,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/test\/caniuse_files\/text-shadow1.png",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/test\/caniuse_files\/text-shadow1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/javascripts\/modernizr\/test\/caniuse_files\/text-shadow2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1680,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/test\/caniuse_files\/text-shadow2.png",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/test\/caniuse_files\/text-shadow2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/javascripts\/modernizr\/test\/caniuse_files\/windsong_font.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1339,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/test\/caniuse_files\/windsong_font.png",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/test\/caniuse_files\/windsong_font.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/javascripts\/modernizr\/test\/caniuse_files\/xhtml.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/test\/caniuse_files\/xhtml.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/javascripts\/modernizr\/test\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/test\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/javascripts\/modernizr\/test\/js\/basic.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/test\/js\/basic.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/javascripts\/modernizr\/test\/js\/dumpdata.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/test\/js\/dumpdata.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/test\/js\/dumpdata-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/test\/js\/lib\/detect-global.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/test\/js\/lib\/detect-global.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/test\/js\/lib\/detect-global-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/test\/js\/lib\/jquery-1.7b2.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/test\/js\/lib\/jquery-1.7b2.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/test\/js\/lib\/jquery-1.7b2-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/test\/js\/lib\/jsonselect.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/test\/js\/lib\/jsonselect.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/test\/js\/lib\/jsonselect-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/test\/js\/lib\/polyfills.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/test\/js\/lib\/polyfills.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/test\/js\/lib\/polyfills-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/test\/js\/lib\/uaparser.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/test\/js\/lib\/uaparser.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/test\/js\/lib\/uaparser-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/test\/js\/setup.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/test\/js\/setup.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/test\/js\/setup-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/test\/js\/unit-caniuse.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/test\/js\/unit-caniuse.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/test\/js\/unit-caniuse-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/test\/js\/unit.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/test\/js\/unit.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/test\/js\/unit-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/test\/qunit\/qunit.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/test\/qunit\/qunit.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/javascripts\/modernizr\/test\/qunit\/qunit.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/test\/qunit\/qunit.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/test\/qunit\/qunit-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/modernizr\/test\/qunit\/run-qunit.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/modernizr\/test\/qunit\/run-qunit.js",
+		"outputAbbreviatedPath": "\/javascripts\/modernizr\/test\/qunit\/run-qunit-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/particles.js\/bower.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/particles.js\/bower.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/javascripts\/particles.js\/bower-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/javascripts\/particles.js\/demo\/css\/style.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/particles.js\/demo\/css\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/javascripts\/particles.js\/demo\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/particles.js\/demo\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/javascripts\/particles.js\/demo\/js\/app.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/particles.js\/demo\/js\/app.js",
+		"outputAbbreviatedPath": "\/javascripts\/particles.js\/demo\/js\/app-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/particles.js\/demo\/js\/lib\/stats.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/particles.js\/demo\/js\/lib\/stats.js",
+		"outputAbbreviatedPath": "\/javascripts\/particles.js\/demo\/js\/lib\/stats-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/particles.js\/LICENSE.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/particles.js\/LICENSE.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/javascripts\/particles.js\/LICENSE.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/javascripts\/particles.js\/particles.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/particles.js\/particles.js",
+		"outputAbbreviatedPath": "\/javascripts\/particles.js\/particles-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/javascripts\/particles.js\/README.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/javascripts\/particles.js\/README.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/javascripts\/particles.js\/README.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/layouts\/base.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/layouts\/base.jade",
+		"outputAbbreviatedPath": "\/layouts\/base.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/partials\/footer.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/footer.jade",
+		"outputAbbreviatedPath": "\/partials\/footer.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/partials\/head.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/head.jade",
+		"outputAbbreviatedPath": "\/partials\/head.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/partials\/nav.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/partials\/nav.jade",
+		"outputAbbreviatedPath": "\/partials\/nav.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/scss\/404.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/404.scss",
+		"outputAbbreviatedPath": "\/css\/404.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"\/scss\/index.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/index.scss",
+		"outputAbbreviatedPath": "\/css\/index.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"\/scss\/jumpstart\/elements\/_grid.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/jumpstart\/elements\/_grid.scss",
+		"outputAbbreviatedPath": "\/scss\/jumpstart\/css\/_grid.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"\/scss\/jumpstart\/elements\/_icons.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/jumpstart\/elements\/_icons.scss",
+		"outputAbbreviatedPath": "\/scss\/jumpstart\/css\/_icons.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"\/scss\/jumpstart\/elements\/_typography.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/jumpstart\/elements\/_typography.scss",
+		"outputAbbreviatedPath": "\/scss\/jumpstart\/css\/_typography.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"\/scss\/jumpstart\/jumpstart.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/jumpstart\/jumpstart.scss",
+		"outputAbbreviatedPath": "\/css\/jumpstart.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"\/scss\/jumpstart\/modules\/_footer.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/jumpstart\/modules\/_footer.scss",
+		"outputAbbreviatedPath": "\/scss\/jumpstart\/css\/_footer.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"\/scss\/jumpstart\/modules\/_main-nav.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/jumpstart\/modules\/_main-nav.scss",
+		"outputAbbreviatedPath": "\/scss\/jumpstart\/css\/_main-nav.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"\/scss\/jumpstart\/utility\/_functions.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/jumpstart\/utility\/_functions.scss",
+		"outputAbbreviatedPath": "\/scss\/jumpstart\/css\/_functions.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"\/scss\/jumpstart\/utility\/_global.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/jumpstart\/utility\/_global.scss",
+		"outputAbbreviatedPath": "\/scss\/jumpstart\/css\/_global.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"\/scss\/jumpstart\/utility\/_mixins.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/jumpstart\/utility\/_mixins.scss",
+		"outputAbbreviatedPath": "\/scss\/jumpstart\/css\/_mixins.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"\/scss\/jumpstart\/vendors\/_font-awesome.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/jumpstart\/vendors\/_font-awesome.scss",
+		"outputAbbreviatedPath": "\/scss\/jumpstart\/css\/_font-awesome.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"\/www\/404.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/404.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/www\/css\/404.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/css\/404.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/www\/css\/index.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/css\/index.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/www\/css\/jumpstart.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/css\/jumpstart.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/www\/css\/normalize.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/css\/normalize.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/www\/images\/share.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/www\/images\/share.png",
+		"outputAbbreviatedPath": "\/www\/images\/share.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/www\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/www\/javascripts\/404.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/404.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/404-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/app.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/app.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/app-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/index.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/index.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/index-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/a-download.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/a-download.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/a-download-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/audio-audiodata-api.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/audio-audiodata-api.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/audio-audiodata-api-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/audio-webaudio-api.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/audio-webaudio-api.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/audio-webaudio-api-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/battery-api.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/battery-api.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/battery-api-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/battery-level.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/battery-level.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/battery-level-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/blob-constructor.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/blob-constructor.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/blob-constructor-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/canvas-todataurl-type.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/canvas-todataurl-type.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/canvas-todataurl-type-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/contenteditable.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/contenteditable.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/contenteditable-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/contentsecuritypolicy.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/contentsecuritypolicy.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/contentsecuritypolicy-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/contextmenu.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/contextmenu.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/contextmenu-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/cookies.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/cookies.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/cookies-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/cors.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/cors.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/cors-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/css-backgroundposition-shorthand.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-backgroundposition-shorthand.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-backgroundposition-shorthand-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/css-backgroundposition-xy.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-backgroundposition-xy.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-backgroundposition-xy-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/css-backgroundrepeat.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-backgroundrepeat.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-backgroundrepeat-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/css-backgroundsizecover.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-backgroundsizecover.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-backgroundsizecover-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/css-boxsizing.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-boxsizing.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-boxsizing-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/css-calc.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-calc.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-calc-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/css-cubicbezierrange.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-cubicbezierrange.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-cubicbezierrange-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/css-displayrunin.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-displayrunin.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-displayrunin-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/css-displaytable.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-displaytable.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-displaytable-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/css-filters.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-filters.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-filters-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/css-hyphens.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-hyphens.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-hyphens-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/css-lastchild.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-lastchild.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-lastchild-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/css-mask.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-mask.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-mask-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/css-mediaqueries.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-mediaqueries.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-mediaqueries-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/css-objectfit.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-objectfit.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-objectfit-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/css-overflow-scrolling.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-overflow-scrolling.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-overflow-scrolling-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/css-pointerevents.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-pointerevents.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-pointerevents-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/css-positionsticky.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-positionsticky.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-positionsticky-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/css-regions.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-regions.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-regions-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/css-remunit.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-remunit.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-remunit-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/css-resize.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-resize.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-resize-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/css-scrollbars.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-scrollbars.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-scrollbars-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/css-shapes.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-shapes.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-shapes-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/css-subpixelfont.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-subpixelfont.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-subpixelfont-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/css-supports.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-supports.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-supports-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/css-userselect.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-userselect.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-userselect-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/css-vhunit.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-vhunit.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-vhunit-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/css-vmaxunit.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-vmaxunit.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-vmaxunit-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/css-vminunit.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-vminunit.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-vminunit-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/css-vwunit.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-vwunit.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/css-vwunit-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/custom-protocol-handler.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/custom-protocol-handler.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/custom-protocol-handler-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/dart.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/dart.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/dart-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/dataview-api.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/dataview-api.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/dataview-api-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/dom-classlist.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/dom-classlist.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/dom-classlist-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/dom-createElement-attrs.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/dom-createElement-attrs.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/dom-createElement-attrs-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/dom-dataset.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/dom-dataset.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/dom-dataset-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/dom-microdata.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/dom-microdata.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/dom-microdata-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/elem-datalist.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/elem-datalist.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/elem-datalist-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/elem-details.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/elem-details.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/elem-details-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/elem-output.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/elem-output.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/elem-output-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/elem-progress-meter.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/elem-progress-meter.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/elem-progress-meter-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/elem-ruby.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/elem-ruby.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/elem-ruby-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/elem-time.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/elem-time.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/elem-time-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/elem-track.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/elem-track.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/elem-track-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/emoji.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/emoji.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/emoji-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/es5-strictmode.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/es5-strictmode.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/es5-strictmode-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/event-deviceorientation-motion.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/event-deviceorientation-motion.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/event-deviceorientation-motion-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/exif-orientation.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/exif-orientation.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/exif-orientation-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/file-api.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/file-api.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/file-api-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/file-filesystem.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/file-filesystem.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/file-filesystem-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/forms-fileinput.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/forms-fileinput.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/forms-fileinput-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/forms-formattribute.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/forms-formattribute.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/forms-formattribute-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/forms-inputnumber-l10n.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/forms-inputnumber-l10n.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/forms-inputnumber-l10n-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/forms-placeholder.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/forms-placeholder.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/forms-placeholder-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/forms-speechinput.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/forms-speechinput.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/forms-speechinput-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/forms-validation.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/forms-validation.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/forms-validation-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/fullscreen-api.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/fullscreen-api.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/fullscreen-api-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/gamepad.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/gamepad.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/gamepad-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/getusermedia.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/getusermedia.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/getusermedia-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/ie8compat.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/ie8compat.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/ie8compat-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/iframe-sandbox.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/iframe-sandbox.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/iframe-sandbox-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/iframe-seamless.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/iframe-seamless.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/iframe-seamless-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/iframe-srcdoc.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/iframe-srcdoc.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/iframe-srcdoc-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/img-apng.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/img-apng.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/img-apng-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/img-webp.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/img-webp.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/img-webp-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/json.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/json.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/json-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/lists-reversed.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/lists-reversed.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/lists-reversed-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/mathml.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/mathml.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/mathml-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/network-connection.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/network-connection.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/network-connection-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/network-eventsource.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/network-eventsource.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/network-eventsource-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/network-xhr2.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/network-xhr2.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/network-xhr2-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/notification.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/notification.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/notification-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/performance.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/performance.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/performance-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/pointerlock-api.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/pointerlock-api.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/pointerlock-api-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/quota-management-api.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/quota-management-api.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/quota-management-api-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/requestanimationframe.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/requestanimationframe.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/requestanimationframe-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/script-async.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/script-async.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/script-async-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/script-defer.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/script-defer.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/script-defer-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/style-scoped.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/style-scoped.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/style-scoped-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/svg-filters.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/svg-filters.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/svg-filters-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/unicode.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/unicode.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/unicode-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/url-data-uri.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/url-data-uri.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/url-data-uri-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/userdata.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/userdata.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/userdata-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/vibration.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/vibration.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/vibration-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/web-intents.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/web-intents.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/web-intents-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/webgl-extensions.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/webgl-extensions.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/webgl-extensions-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/websockets-binary.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/websockets-binary.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/websockets-binary-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/window-framed.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/window-framed.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/window-framed-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/workers-blobworkers.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/workers-blobworkers.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/workers-blobworkers-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/workers-dataworkers.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/workers-dataworkers.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/workers-dataworkers-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/feature-detects\/workers-sharedworkers.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/workers-sharedworkers.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/feature-detects\/workers-sharedworkers-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/grunt.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/grunt.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/grunt-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/media\/Modernizr 2 Logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14823,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/media\/Modernizr 2 Logo.png",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/media\/Modernizr 2 Logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/www\/javascripts\/modernizr\/modernizr.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/modernizr.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/modernizr-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/readme.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/readme.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/www\/javascripts\/modernizr\/test\/basic.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/basic.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/www\/javascripts\/modernizr\/test\/caniuse.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/caniuse.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/www\/javascripts\/modernizr\/test\/caniuse_files\/alpha.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 163,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/caniuse_files\/alpha.png",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/caniuse_files\/alpha.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/www\/javascripts\/modernizr\/test\/caniuse_files\/apng_test.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 195,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/caniuse_files\/apng_test.png",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/caniuse_files\/apng_test.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/www\/javascripts\/modernizr\/test\/caniuse_files\/before-after.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 452,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/caniuse_files\/before-after.png",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/caniuse_files\/before-after.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/www\/javascripts\/modernizr\/test\/caniuse_files\/form_validation.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/caniuse_files\/form_validation.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/www\/javascripts\/modernizr\/test\/caniuse_files\/ga.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/caniuse_files\/ga.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/caniuse_files\/ga-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/test\/caniuse_files\/green5x5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/caniuse_files\/green5x5.png",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/caniuse_files\/green5x5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/www\/javascripts\/modernizr\/test\/caniuse_files\/hashchange.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/caniuse_files\/hashchange.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/www\/javascripts\/modernizr\/test\/caniuse_files\/jquery.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/caniuse_files\/jquery.min.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/caniuse_files\/jquery.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/test\/caniuse_files\/mathml.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/caniuse_files\/mathml.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/www\/javascripts\/modernizr\/test\/caniuse_files\/mathml_ref.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3140,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/caniuse_files\/mathml_ref.png",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/caniuse_files\/mathml_ref.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/www\/javascripts\/modernizr\/test\/caniuse_files\/modernizr-1.7.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/caniuse_files\/modernizr-1.7.min.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/caniuse_files\/modernizr-1.7.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/test\/caniuse_files\/png_alpha_result.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 214,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/caniuse_files\/png_alpha_result.png",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/caniuse_files\/png_alpha_result.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/www\/javascripts\/modernizr\/test\/caniuse_files\/pushstate.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/caniuse_files\/pushstate.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/www\/javascripts\/modernizr\/test\/caniuse_files\/red30x30.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 93,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/caniuse_files\/red30x30.png",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/caniuse_files\/red30x30.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/www\/javascripts\/modernizr\/test\/caniuse_files\/ruby.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1339,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/caniuse_files\/ruby.png",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/caniuse_files\/ruby.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/www\/javascripts\/modernizr\/test\/caniuse_files\/stroked-text.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1291,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/caniuse_files\/stroked-text.png",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/caniuse_files\/stroked-text.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/www\/javascripts\/modernizr\/test\/caniuse_files\/style.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/caniuse_files\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/www\/javascripts\/modernizr\/test\/caniuse_files\/svg-html-blur.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1232,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/caniuse_files\/svg-html-blur.png",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/caniuse_files\/svg-html-blur.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/www\/javascripts\/modernizr\/test\/caniuse_files\/svg_blur.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3742,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/caniuse_files\/svg_blur.png",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/caniuse_files\/svg_blur.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/www\/javascripts\/modernizr\/test\/caniuse_files\/table.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2519,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/caniuse_files\/table.png",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/caniuse_files\/table.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/www\/javascripts\/modernizr\/test\/caniuse_files\/text-shadow1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 796,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/caniuse_files\/text-shadow1.png",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/caniuse_files\/text-shadow1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/www\/javascripts\/modernizr\/test\/caniuse_files\/text-shadow2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1680,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/caniuse_files\/text-shadow2.png",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/caniuse_files\/text-shadow2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/www\/javascripts\/modernizr\/test\/caniuse_files\/windsong_font.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1339,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/caniuse_files\/windsong_font.png",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/caniuse_files\/windsong_font.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/www\/javascripts\/modernizr\/test\/caniuse_files\/xhtml.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/caniuse_files\/xhtml.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/www\/javascripts\/modernizr\/test\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/www\/javascripts\/modernizr\/test\/js\/basic.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/js\/basic.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/www\/javascripts\/modernizr\/test\/js\/dumpdata.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/js\/dumpdata.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/js\/dumpdata-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/test\/js\/lib\/detect-global.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/js\/lib\/detect-global.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/js\/lib\/detect-global-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/test\/js\/lib\/jquery-1.7b2.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/js\/lib\/jquery-1.7b2.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/js\/lib\/jquery-1.7b2-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/test\/js\/lib\/jsonselect.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/js\/lib\/jsonselect.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/js\/lib\/jsonselect-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/test\/js\/lib\/polyfills.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/js\/lib\/polyfills.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/js\/lib\/polyfills-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/test\/js\/lib\/uaparser.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/js\/lib\/uaparser.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/js\/lib\/uaparser-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/test\/js\/setup.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/js\/setup.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/js\/setup-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/test\/js\/unit-caniuse.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/js\/unit-caniuse.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/js\/unit-caniuse-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/test\/js\/unit.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/js\/unit.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/js\/unit-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/test\/qunit\/qunit.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/qunit\/qunit.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/www\/javascripts\/modernizr\/test\/qunit\/qunit.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/qunit\/qunit.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/qunit\/qunit-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/modernizr\/test\/qunit\/run-qunit.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/qunit\/run-qunit.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/modernizr\/test\/qunit\/run-qunit-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/particles.js\/bower.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/particles.js\/bower.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/www\/javascripts\/particles.js\/bower-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/www\/javascripts\/particles.js\/demo\/css\/style.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/particles.js\/demo\/css\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/www\/javascripts\/particles.js\/demo\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/particles.js\/demo\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/www\/javascripts\/particles.js\/demo\/js\/app.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/particles.js\/demo\/js\/app.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/particles.js\/demo\/js\/app-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/particles.js\/demo\/js\/lib\/stats.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/particles.js\/demo\/js\/lib\/stats.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/particles.js\/demo\/js\/lib\/stats-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/particles.js\/LICENSE.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/particles.js\/LICENSE.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/www\/javascripts\/particles.js\/particles.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/particles.js\/particles.js",
+		"outputAbbreviatedPath": "\/www\/javascripts\/particles.js\/particles-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/www\/javascripts\/particles.js\/README.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/javascripts\/particles.js\/README.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/www\/layouts\/base.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/layouts\/base.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/www\/partials\/footer.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/partials\/footer.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/www\/partials\/head.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/partials\/head.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/www\/partials\/nav.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/partials\/nav.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/www\/scss\/404.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/scss\/404.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/www\/scss\/index.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/scss\/index.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/www\/scss\/jumpstart\/jumpstart.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/www\/scss\/jumpstart\/jumpstart.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		}
+	},
+"hooks": [
+	],
+"lastSavedByUser": "Justin Lim",
+"manualImportLinks": {
+	},
+"projectAttributes": {
+	"bowerAbbreviatedPath": "",
+	"displayValue": "portfolio",
+	"displayValueWasSetByUser": 1,
+	"iconImageName": "pencil_yellow"
+	},
+"projectSettings": {
+	"alwaysUseExternalServer": 0,
+	"animateCSSInjections": 1,
+	"autoApplyPSLanguageSettingsStyle": 0,
+	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoSyncProjectSettingsFile": 1,
+	"browserRefreshDelay": 0,
+	"coffeeAutoOutputPathEnabled": 1,
+	"coffeeAutoOutputPathFilenamePattern": "*.js",
+	"coffeeAutoOutputPathRelativePath": "",
+	"coffeeAutoOutputPathReplace1": "",
+	"coffeeAutoOutputPathReplace2": "",
+	"coffeeAutoOutputPathStyle": 0,
+	"coffeeCreateSourceMap": 1,
+	"coffeeLintFlags2": {
+		"arrow_spacing": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camel_case_classes": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"colon_assignment_spacing": {
+			"active": 0,
+			"flagValue": 1
+			},
+		"cyclomatic_complexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"duplicate_key": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"ensure_comprehensions": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indentation": {
+			"active": 1,
+			"flagValue": 2
+			},
+		"line_endings": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"max_line_length": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"missing_fat_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newlines_after_classes": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"no_backticks": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_functions": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_empty_param_list": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_implicit_braces": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_interpolation_in_single_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_stand_alone_at": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_tabs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_throwing_strings": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_whitespace": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_unnecessary_double_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_unnecessary_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"non_empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prefer_english_operator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space_operators": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"spacing_after_comma": {
+			"active": 1,
+			"flagValue": -1
+			}
+		},
+	"coffeeMinifyOutput": 1,
+	"coffeeOutputStyle": 0,
+	"coffeeSyntaxCheckerStyle": 1,
+	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerPreviewPathAddition": "",
+	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
+	"hamlAutoOutputPathEnabled": 0,
+	"hamlAutoOutputPathFilenamePattern": "*.html",
+	"hamlAutoOutputPathRelativePath": "",
+	"hamlAutoOutputPathReplace1": "",
+	"hamlAutoOutputPathReplace2": "",
+	"hamlAutoOutputPathStyle": 0,
+	"hamlEscapeHTMLCharacters": 0,
+	"hamlNoEscapeInAttributes": 0,
+	"hamlOutputFormat": 2,
+	"hamlOutputStyle": 0,
+	"hamlUseCDATA": 0,
+	"hamlUseDoubleQuotes": 0,
+	"hamlUseUnixNewlines": 0,
+	"jadeAutoOutputPathEnabled": 0,
+	"jadeAutoOutputPathFilenamePattern": "*.html",
+	"jadeAutoOutputPathRelativePath": "",
+	"jadeAutoOutputPathReplace1": "",
+	"jadeAutoOutputPathReplace2": "",
+	"jadeAutoOutputPathStyle": 0,
+	"jadeCompileDebug": 1,
+	"jadeOutputStyle": 0,
+	"javascriptAutoOutputPathEnabled": 0,
+	"javascriptAutoOutputPathFilenamePattern": "*-min.js",
+	"javascriptAutoOutputPathRelativePath": "\/min",
+	"javascriptAutoOutputPathReplace1": "",
+	"javascriptAutoOutputPathReplace2": "",
+	"javascriptAutoOutputPathStyle": 0,
+	"javascriptCreateSourceMap": 1,
+	"javascriptOutputStyle": 2,
+	"javascriptSyntaxCheckerStyle": 0,
+	"jsCheckerReservedNamesString": "",
+	"jsHintFlags2": {
+		"asi": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"boss": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"browserify": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camelcase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"curly": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"dojo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"elision": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqeqeq": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqnull": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es3": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"esnext": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"expr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"freeze": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"funcscope": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"futurehostile": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"globalstrict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"immed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"iterator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jasmine": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jquery": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"lastsemic": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"latedef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"laxbreak": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"laxcomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loopfunc": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxcomplexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"maxdepth": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"maxparams": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxstatements": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"mocha": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"mootools": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"moz": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"multistr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newcap": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noarg": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nocomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"noempty": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonbsp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonew": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nonstandard": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"notypeof": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noyield": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onecase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"phantom": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"qunit": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"scripturl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shadow": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"singleGroups": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"strict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"supernew": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"typed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"undef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"varstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"withstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"worker": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"wsh": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"yui": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsLintFlags2": {
+		"ass": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"closure": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"continue": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eqeq": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"newcap": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nomen": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sloppy": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"stupid": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"todo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unparam": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsonAutoOutputPathEnabled": 0,
+	"jsonAutoOutputPathFilenamePattern": "*-min.json",
+	"jsonAutoOutputPathRelativePath": "",
+	"jsonAutoOutputPathReplace1": "",
+	"jsonAutoOutputPathReplace2": "",
+	"jsonAutoOutputPathStyle": 0,
+	"jsonOrderOutput": 0,
+	"jsonOutputStyle": 1,
+	"kitAutoOutputPathEnabled": 0,
+	"kitAutoOutputPathFilenamePattern": "*.html",
+	"kitAutoOutputPathRelativePath": "",
+	"kitAutoOutputPathReplace1": "",
+	"kitAutoOutputPathReplace2": "",
+	"kitAutoOutputPathStyle": 0,
+	"lessAllowInsecureImports": 0,
+	"lessAutoOutputPathEnabled": 0,
+	"lessAutoOutputPathFilenamePattern": "*.css",
+	"lessAutoOutputPathRelativePath": "..\/css",
+	"lessAutoOutputPathReplace1": "less",
+	"lessAutoOutputPathReplace2": "css",
+	"lessAutoOutputPathStyle": 2,
+	"lessCreateSourceMap": 1,
+	"lessDisableJavascript": 0,
+	"lessIeCompatibility": 1,
+	"lessOutputStyle": 0,
+	"lessRelativeURLS": 0,
+	"lessStrictImports": 0,
+	"lessStrictMath": 0,
+	"lessStrictUnits": 0,
+	"markdownAutoOutputPathEnabled": 0,
+	"markdownAutoOutputPathFilenamePattern": "*.html",
+	"markdownAutoOutputPathRelativePath": "",
+	"markdownAutoOutputPathReplace1": "",
+	"markdownAutoOutputPathReplace2": "",
+	"markdownAutoOutputPathStyle": 0,
+	"markdownCriticStyle": 0,
+	"markdownEnableFootnotes": 0,
+	"markdownEnableLabels": 1,
+	"markdownEnableSmartQuotes": 1,
+	"markdownEscapeLineBreaks": 0,
+	"markdownMaskEmailAddresses": 1,
+	"markdownOutputFormat": 0,
+	"markdownOutputStyle": 0,
+	"markdownParseMetadata": 1,
+	"markdownProcessHTML": 0,
+	"markdownRandomFootnoteNumbers": 0,
+	"markdownUseCompatibilityMode": 0,
+	"reloadFileURLs": 0,
+	"sassAutoOutputPathEnabled": 1,
+	"sassAutoOutputPathFilenamePattern": "*.css",
+	"sassAutoOutputPathRelativePath": "..\/css",
+	"sassAutoOutputPathReplace1": "sass",
+	"sassAutoOutputPathReplace2": "css",
+	"sassAutoOutputPathStyle": 2,
+	"sassCreateSourceMap": 1,
+	"sassDebugStyle": 0,
+	"sassDecimalPrecision": 5,
+	"sassOutputStyle": 0,
+	"sassUseLibsass": 1,
+	"shouldRunAutoprefixer": 1,
+	"shouldRunBless": 0,
+	"skippedItemsString": ".svn, .git, .hg, log, _logs, _cache, cache, logs, node_modules",
+	"slimAutoOutputPathEnabled": 0,
+	"slimAutoOutputPathFilenamePattern": "*.html",
+	"slimAutoOutputPathRelativePath": "",
+	"slimAutoOutputPathReplace1": "",
+	"slimAutoOutputPathReplace2": "",
+	"slimAutoOutputPathStyle": 0,
+	"slimCompileOnly": 0,
+	"slimLogicless": 0,
+	"slimOutputFormat": 0,
+	"slimOutputStyle": 1,
+	"slimRailsCompatible": 0,
+	"stylusAutoOutputPathEnabled": 0,
+	"stylusAutoOutputPathFilenamePattern": "*.css",
+	"stylusAutoOutputPathRelativePath": "..\/css",
+	"stylusAutoOutputPathReplace1": "stylus",
+	"stylusAutoOutputPathReplace2": "css",
+	"stylusAutoOutputPathStyle": 2,
+	"stylusCreateSourceMap": 0,
+	"stylusDebugStyle": 0,
+	"stylusImportCSS": 0,
+	"stylusOutputStyle": 0,
+	"stylusResolveRelativeURLS": 0,
+	"typescriptAutoOutputPathEnabled": 0,
+	"typescriptAutoOutputPathFilenamePattern": "*.js",
+	"typescriptAutoOutputPathRelativePath": "\/js",
+	"typescriptAutoOutputPathReplace1": "",
+	"typescriptAutoOutputPathReplace2": "",
+	"typescriptAutoOutputPathStyle": 2,
+	"typescriptCreateDeclarationFile": 0,
+	"typescriptCreateSourceMap": 1,
+	"typescriptMinifyOutput": 0,
+	"typescriptModuleType": 0,
+	"typescriptNoImplicitAny": 0,
+	"typescriptPreserveConstEnums": 0,
+	"typescriptRemoveComments": 0,
+	"typescriptSuppressImplicitAnyIndexErrors": 0,
+	"typescriptTargetECMAVersion": 0,
+	"uglifyDefinesString": "",
+	"uglifyFlags2": {
+		"ascii-only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bare-returns": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"booleans": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"bracketize": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"cascade": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comparisons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"compress": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"conditionals": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_console": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evaluate": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indent-level": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"indent-start": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"inline-script": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"join_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"keep_fargs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_fnames": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loops": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"mangle": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"max-line-len": {
+			"active": 1,
+			"flagValue": 32000
+			},
+		"negate_iife": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"pure_getters": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"quote-keys": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"screw-ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sequences": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sort": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space-colon": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"toplevel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"warnings": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"width": {
+			"active": 1,
+			"flagValue": 80
+			}
+		},
+	"uglifyReservedNamesString": "$",
+	"websiteRelativeRoot": ""
+	},
+"settingsFileVersion": "2"
+}
