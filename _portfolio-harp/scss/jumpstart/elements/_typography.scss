@@ -19,7 +19,7 @@ $type-grid: false;
 $sans-stack:     "calluna-sans", "Helvetica Neue", Helvetica, Arial, Calibri, sans-serif;
 $serif-stack:    "calluna", Georgia,Times, "Times New Roman",serif;
 $base-font-size: 16px !default;    // Base Size (px)
-$base-rhythm:    22px !default;    // Vertical Rhythm (px)
+$base-rhythm:    26px !default;    // Vertical Rhythm (px)
 $base-weight:    normal !default;
 
 // Colours
@@ -119,9 +119,9 @@ h1 {
 }
 
 h2 {
-  @include type-setter($family:$sans-stack, $weight:400, $size:26px, $lines:2);
+  @include type-setter($family:$sans-stack, $weight:400, $size:26px, $lines:1.5);
   @include leader-setter(0);
-  @include trailer-setter(1);
+  @include trailer-setter(0.5);
   // Styles
   color: $text-color;
 }
