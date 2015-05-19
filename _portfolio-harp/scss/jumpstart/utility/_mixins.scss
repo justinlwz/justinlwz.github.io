@@ -48,8 +48,8 @@
 // Transition Mixin
 @mixin css-transition(
   $property: all,
-  $timing: 0.5s,
-  $easing: ease
+  $timing: 0.3s,
+  $easing: ease-in-out
 ) {
   transition: $property $timing $easing;
 }

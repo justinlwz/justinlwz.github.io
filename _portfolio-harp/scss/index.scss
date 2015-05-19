@@ -18,6 +18,25 @@
 
 /* -------------------------------------
 
+  Variables
+
+------------------------------------- */
+
+$button-download:       #34495E !default;
+$button-download-hover: lighten(#34495E, 5%) !default;
+
+$button-twitter:       #55ACEE !default;
+$button-twitter-hover: darken(#55ACEE, 5%) !default;
+
+$button-linkedin:       #0976B4 !default;
+$button-linkedin-hover: darken(#0976B4, 5%) !default;
+
+$button-github:       #333333 !default;
+$button-github-hover: lighten(#333333, 5%) !default;
+
+
+/* -------------------------------------
+
   Layouts
 
 ------------------------------------- */
@@ -40,16 +59,54 @@ h1#logo {
 }
 
 h2 {
-  @include type-setter($family:$serif-stack, $weight:300, $size:24px, $lines:1.5);
+  @include type-setter($family:$serif-stack, $weight:300, $size:20px, $lines:auto);
   @include leader-setter(0);
-  @include trailer-setter(1);
+  @include trailer-setter(0.5);
 }
 
-div#index-actions a.button { 
-  display: inline-block;
-  vertical-align: top;
-  margin-bottom: none;
-  &:not(:last-child) { margin-right: 10px; }
+
+section#index-actions {
+  margin-top: 3rem;
+  a.button { 
+    @include type-setter($weight:300, $size:14px, $lines:1.5);
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0;
+    @include css-transition();
+    i { 
+      width: 40px;
+      font-size: 14px;
+      line-height: 38px;
+      display: inline-block; 
+      text-align: center;
+    }
+    &:not(:last-child) { margin-right: 10px; }
+    // Download
+    &.download {
+      padding-right: 15px;
+      margin-right: 30px;
+      background: $button-download;
+      &:hover, &:active { background: $button-download-hover; }
+    }
+    // LinkedIn
+    &.linkedin {
+      background: $button-linkedin;
+      &:hover, &:active { background: $button-linkedin-hover; }
+    }
+    // Github
+    &.github {
+      background: $button-github;
+      &:hover, &:active { background: $button-github-hover; }
+    }
+
+    // Twitter
+    &.twitter {
+      background: $button-twitter;
+      &:hover, &:active { background: $button-twitter-hover; }
+    }
+  }
 }
 
 nav#portfolio-list {
