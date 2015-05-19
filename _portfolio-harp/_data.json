@@ -1,15 +1,15 @@
 {
   "index": {
-    "layout" : "layouts/base",
+    "layout" : "_layouts/base",
     "cssURL" : "index.css"
   },
   "about": {
-    "layout" : "layouts/base",
+    "layout" : "_layouts/base",
     "title"  : "justinl.im / about",
     "cssURL" : "about.css"
   },
   "404": {
-    "layout" : "layouts/base",
+    "layout" : "_layouts/base",
     "title"  : "justinl.im / 404",
     "cssURL" : "404.css"
   }
