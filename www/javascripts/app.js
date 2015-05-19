@@ -1,7 +1,0 @@
-/*
-
-
-  Global JS for Portfolio Site
-
-
-*/
