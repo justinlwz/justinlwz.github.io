@@ -73,5 +73,5 @@ bower_components
 
 ### CodeKit ###
 # General CodeKit files to ignore
-config.codekit
+*config.codekit
 /min
