@@ -1,0 +1,28 @@
+The humans.txt file explains the fonts, technology,
+and assets used on this site.
+
+________________________________________________________________
+
+TECHNOLOGY
+
+Metalsmith - Static site generator
+metalsmith.io
+
+SASS - CSS pre-processor
+sass-lang.com
+
+Github - Code Repository
+github.com
+
+JS libraries include:
+jQuery, Modernizr, particles.js, velocity-animate, slick-carousel
+
+________________________________________________________________
+
+FONTS
+
+Calluna
+http://www.exljbris.com/calluna.html
+
+Calluna Sans
+http://www.exljbris.com/callunasans.html
